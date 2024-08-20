@@ -1,4 +1,4 @@
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
 // <xsd:simpleType name="ST_TblLayoutType">
 //     <xsd:restriction base="xsd:string">

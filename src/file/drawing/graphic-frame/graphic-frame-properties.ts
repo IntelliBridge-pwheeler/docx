@@ -1,5 +1,5 @@
-import { XmlComponent } from "@file/xml-components";
-import { GraphicFrameLocks } from "./graphic-frame-locks/graphic-frame-locks";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { GraphicFrameLocks } from "./graphic-frame-locks/graphic-frame-locks.js";
 
 export class GraphicFrameProperties extends XmlComponent {
     public constructor() {

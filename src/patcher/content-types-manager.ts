@@ -1,6 +1,6 @@
 import { Element } from "xml-js";
 
-import { getFirstLevelElements } from "./util";
+import { getFirstLevelElements } from "./util.js";
 
 export const appendContentType = (element: Element, contentType: string, extension: string): void => {
     const relationshipElements = getFirstLevelElements(element, "Types");

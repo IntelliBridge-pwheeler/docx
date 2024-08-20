@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { replaceTokenInParagraphElement } from "./paragraph-token-replacer";
+import { replaceTokenInParagraphElement } from "./paragraph-token-replacer.js";
 
 describe("paragraph-token-replacer", () => {
     describe("replaceTokenInParagraphElement", () => {

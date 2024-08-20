@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { FootnoteReferenceRun } from "@file/footnotes/footnote/run/reference-run";
+import { Formatter } from "@export/formatter.js";
+import { FootnoteReferenceRun } from "@file/footnotes/footnote/run/reference-run.js";
 
-import { TextRun } from "./text-run";
+import { TextRun } from "./text-run.js";
 
 describe("TextRun", () => {
     let run: TextRun;

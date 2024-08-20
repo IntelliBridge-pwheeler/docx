@@ -1,9 +1,9 @@
 // http://officeopenxml.com/WPbookmark.php
-import { XmlComponent } from "@file/xml-components";
-import { bookmarkUniqueNumericIdGen } from "@util/convenience-functions";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { bookmarkUniqueNumericIdGen } from "@util/convenience-functions.js";
 
-import { ParagraphChild } from "../paragraph";
-import { BookmarkEndAttributes, BookmarkStartAttributes } from "./bookmark-attributes";
+import { ParagraphChild } from "../paragraph.js";
+import { BookmarkEndAttributes, BookmarkStartAttributes } from "./bookmark-attributes.js";
 
 export class Bookmark {
     private readonly bookmarkUniqueNumericId = bookmarkUniqueNumericIdGen();

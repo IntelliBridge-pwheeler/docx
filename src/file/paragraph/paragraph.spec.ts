@@ -1,20 +1,20 @@
 import { afterEach, assert, beforeEach, describe, expect, it, vi } from "vitest";
 
-import * as convenienceFunctions from "@util/convenience-functions";
+import * as convenienceFunctions from "@util/convenience-functions.js";
 
-import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared";
-import { Formatter } from "@export/formatter";
-import { BorderStyle } from "@file/border";
-import { EMPTY_OBJECT } from "@file/xml-components";
+import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared/index.js";
+import { Formatter } from "@export/formatter.js";
+import { BorderStyle } from "@file/border/index.js";
+import { EMPTY_OBJECT } from "@file/xml-components/index.js";
 
-import { IViewWrapper } from "../document-wrapper";
-import { File } from "../file";
-import { ShadingType } from "../shading";
-import { AlignmentType, HeadingLevel, LeaderType, PageBreak, TabStopPosition, TabStopType } from "./formatting";
-import { FrameAnchorType } from "./frame";
-import { Bookmark, ExternalHyperlink } from "./links";
-import { Paragraph } from "./paragraph";
-import { TextRun } from "./run";
+import { IViewWrapper } from "../document-wrapper.js";
+import { File } from "../file.js";
+import { ShadingType } from "../shading/index.js";
+import { AlignmentType, HeadingLevel, LeaderType, PageBreak, TabStopPosition, TabStopType } from "./formatting/index.js";
+import { FrameAnchorType } from "./frame/index.js";
+import { Bookmark, ExternalHyperlink } from "./links/index.js";
+import { Paragraph } from "./paragraph.js";
+import { TextRun } from "./run/index.js";
 
 describe("Paragraph", () => {
     beforeEach(() => {

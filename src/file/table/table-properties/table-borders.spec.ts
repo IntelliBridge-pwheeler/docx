@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { BorderStyle } from "@file/border";
+import { Formatter } from "@export/formatter.js";
+import { BorderStyle } from "@file/border/index.js";
 
-import { TableBorders } from "./table-borders";
+import { TableBorders } from "./table-borders.js";
 
 describe("TableBorders", () => {
     describe("#constructor", () => {

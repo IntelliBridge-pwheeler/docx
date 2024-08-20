@@ -1,9 +1,9 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { TextRun } from "../run";
-import { ConcreteHyperlink, ExternalHyperlink, InternalHyperlink } from "./hyperlink";
+import { TextRun } from "../run/index.js";
+import { ConcreteHyperlink, ExternalHyperlink, InternalHyperlink } from "./hyperlink.js";
 
 describe("ConcreteHyperlink", () => {
     let hyperlink: ConcreteHyperlink;

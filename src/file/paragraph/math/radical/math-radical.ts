@@ -1,10 +1,10 @@
 // http://www.datypic.com/sc/ooxml/e-m_rad-1.html
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { MathComponent } from "../math-component";
-import { MathBase } from "../n-ary";
-import { MathDegree } from "./math-degree";
-import { MathRadicalProperties } from "./math-radical-properties";
+import { MathComponent } from "../math-component.js";
+import { MathBase } from "../n-ary/index.js";
+import { MathDegree } from "./math-degree.js";
+import { MathRadicalProperties } from "./math-radical-properties.js";
 
 export interface IMathRadicalOptions {
     readonly children: readonly MathComponent[];

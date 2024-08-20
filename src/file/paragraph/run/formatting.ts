@@ -1,5 +1,5 @@
-import { Attributes, XmlComponent } from "@file/xml-components";
-import { hexColorValue, signedTwipsMeasureValue, UniversalMeasure } from "@util/values";
+import { Attributes, XmlComponent } from "@file/xml-components/index.js";
+import { hexColorValue, signedTwipsMeasureValue, UniversalMeasure } from "@util/values.js";
 
 export class CharacterSpacing extends XmlComponent {
     public constructor(value: number | UniversalMeasure) {

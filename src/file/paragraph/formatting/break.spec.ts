@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { ColumnBreak, PageBreak, PageBreakBefore } from "./break";
+import { ColumnBreak, PageBreak, PageBreakBefore } from "./break.js";
 
 describe("PageBreak", () => {
     let pageBreak: PageBreak;

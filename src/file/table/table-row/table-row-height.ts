@@ -1,5 +1,5 @@
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { PositiveUniversalMeasure, twipsMeasureValue } from "@util/values";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { PositiveUniversalMeasure, twipsMeasureValue } from "@util/values.js";
 
 // <xsd:complexType name="CT_Height">
 //     <xsd:attribute name="val" type="s:ST_TwipsMeasure"/>

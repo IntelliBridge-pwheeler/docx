@@ -1,5 +1,5 @@
-import { Attributes, XmlComponent } from "@file/xml-components";
-import { hexColorValue } from "@util/values";
+import { Attributes, XmlComponent } from "@file/xml-components/index.js";
+import { hexColorValue } from "@util/values.js";
 
 export const UnderlineType = {
     SINGLE: "single",

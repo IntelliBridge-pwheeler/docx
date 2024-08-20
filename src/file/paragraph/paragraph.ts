@@ -1,18 +1,18 @@
 // http://officeopenxml.com/WPparagraph.php
-import { FootnoteReferenceRun } from "@file/footnotes";
-import { IContext, IXmlableObject } from "@file/xml-components";
-import { uniqueId } from "@util/convenience-functions";
-import { FileChild } from "@file/file-child";
+import { FootnoteReferenceRun } from "@file/footnotes/index.js";
+import { IContext, IXmlableObject } from "@file/xml-components/index.js";
+import { uniqueId } from "@util/convenience-functions.js";
+import { FileChild } from "@file/file-child.js";
 
-import { TargetModeType } from "../relationships/relationship/relationship";
-import { DeletedTextRun, InsertedTextRun } from "../track-revision";
-import { CheckBox } from "../checkbox";
-import { ColumnBreak, PageBreak } from "./formatting/break";
-import { Bookmark, ConcreteHyperlink, ExternalHyperlink, InternalHyperlink } from "./links";
-import { Math } from "./math";
-import { IParagraphPropertiesOptions, ParagraphProperties } from "./properties";
-import { ImageRun, Run, SequentialIdentifier, SimpleField, SimpleMailMergeField, SymbolRun, TextRun } from "./run";
-import { Comment, CommentRangeEnd, CommentRangeStart, CommentReference, Comments } from "./run/comment-run";
+import { TargetModeType } from "../relationships/relationship/relationship.js";
+import { DeletedTextRun, InsertedTextRun } from "../track-revision/index.js";
+import { CheckBox } from "../checkbox/index.js";
+import { ColumnBreak, PageBreak } from "./formatting/break.js";
+import { Bookmark, ConcreteHyperlink, ExternalHyperlink, InternalHyperlink } from "./links/index.js";
+import { Math } from "./math/index.js";
+import { IParagraphPropertiesOptions, ParagraphProperties } from "./properties.js";
+import { ImageRun, Run, SequentialIdentifier, SimpleField, SimpleMailMergeField, SymbolRun, TextRun } from "./run/index.js";
+import { Comment, CommentRangeEnd, CommentRangeStart, CommentReference, Comments } from "./run/comment-run.js";
 
 export type ParagraphChild =
     | TextRun

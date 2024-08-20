@@ -1,6 +1,6 @@
-import { IParagraphStylePropertiesOptions, IRunStylePropertiesOptions, ParagraphProperties } from "@file/paragraph";
-import { RunProperties } from "@file/paragraph/run/properties";
-import { IStyleOptions, Style } from "./style";
+import { IParagraphStylePropertiesOptions, IRunStylePropertiesOptions, ParagraphProperties } from "@file/paragraph/index.js";
+import { RunProperties } from "@file/paragraph/run/properties.js";
+import { IStyleOptions, Style } from "./style.js";
 
 export interface IBaseParagraphStyleOptions extends IStyleOptions {
     readonly paragraph?: IParagraphStylePropertiesOptions;

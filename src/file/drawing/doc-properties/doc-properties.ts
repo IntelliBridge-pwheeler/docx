@@ -1,10 +1,10 @@
 // https://c-rex.net/projects/samples/ooxml/e1/Part4/OOXML_P4_DOCX_docPr_topic_ID0ES32OB.html
-import { IContext, IXmlableObject, NextAttributeComponent, XmlComponent } from "@file/xml-components";
-import { ConcreteHyperlink } from "@file/paragraph";
+import { IContext, IXmlableObject, NextAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { ConcreteHyperlink } from "@file/paragraph/index.js";
 
-import { docPropertiesUniqueNumericIdGen } from "@util/convenience-functions";
+import { docPropertiesUniqueNumericIdGen } from "@util/convenience-functions.js";
 
-import { createHyperlinkClick } from "./doc-properties-children";
+import { createHyperlinkClick } from "./doc-properties-children.js";
 
 // <complexType name="CT_NonVisualDrawingProps">
 //     <sequence>

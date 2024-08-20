@@ -1,2 +1,2 @@
-export * from "./custom-properties";
-export * from "./custom-property";
+export * from "./custom-properties.js";
+export * from "./custom-property.js";

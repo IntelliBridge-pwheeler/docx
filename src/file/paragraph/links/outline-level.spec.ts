@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { OutlineLevel } from "./outline-level";
+import { OutlineLevel } from "./outline-level.js";
 
 describe("ParagraphOutlineLevel", () => {
     let outlineLevel: OutlineLevel;

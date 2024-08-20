@@ -1,9 +1,9 @@
 // http://www.datypic.com/sc/ooxml/e-m_sSup-1.html
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { MathComponent } from "../../math-component";
-import { MathBase, MathSuperScriptElement } from "../../n-ary";
-import { MathSuperScriptProperties } from "./math-super-script-function-properties";
+import { MathComponent } from "../../math-component.js";
+import { MathBase, MathSuperScriptElement } from "../../n-ary/index.js";
+import { MathSuperScriptProperties } from "./math-super-script-function-properties.js";
 
 export interface IMathSuperScriptOptions {
     readonly children: readonly MathComponent[];

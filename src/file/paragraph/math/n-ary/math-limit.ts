@@ -1,6 +1,6 @@
 // http://www.datypic.com/sc/ooxml/e-m_lim-1.html
-import { XmlComponent } from "@file/xml-components";
-import { MathComponent } from "../math-component";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { MathComponent } from "../math-component.js";
 
 export class MathLimit extends XmlComponent {
     public constructor(children: readonly MathComponent[]) {

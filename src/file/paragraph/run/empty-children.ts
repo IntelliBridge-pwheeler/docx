@@ -1,4 +1,4 @@
-import { EmptyElement } from "@file/xml-components";
+import { EmptyElement } from "@file/xml-components/index.js";
 
 // <xsd:group name="EG_RunInnerContent">
 //         ...

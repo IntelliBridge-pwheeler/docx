@@ -1,12 +1,12 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { Break } from "../../paragraph/run/break";
-import { Begin, End, Separate } from "../../paragraph/run/field";
-import { IRunOptions, PageNumber } from "../../paragraph/run/run";
-import { ChangeAttributes, IChangedAttributesProperties } from "../track-revision";
-import { RunProperties } from "../../paragraph/run/properties";
-import { DeletedNumberOfPages, DeletedNumberOfPagesSection, DeletedPage } from "./deleted-page-number";
-import { DeletedText } from "./deleted-text";
+import { Break } from "../../paragraph/run/break.js";
+import { Begin, End, Separate } from "../../paragraph/run/field.js";
+import { IRunOptions, PageNumber } from "../../paragraph/run/run.js";
+import { ChangeAttributes, IChangedAttributesProperties } from "../track-revision.js";
+import { RunProperties } from "../../paragraph/run/properties.js";
+import { DeletedNumberOfPages, DeletedNumberOfPagesSection, DeletedPage } from "./deleted-page-number.js";
+import { DeletedText } from "./deleted-text.js";
 
 interface IDeletedRunOptions extends IRunOptions, IChangedAttributesProperties {}
 

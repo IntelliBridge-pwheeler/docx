@@ -1,9 +1,9 @@
-import { VerticalAlign, VerticalAlignElement } from "@file/vertical-align";
-import { IgnoreIfEmptyXmlComponent } from "@file/xml-components";
+import { VerticalAlign, VerticalAlignElement } from "@file/vertical-align/index.js";
+import { IgnoreIfEmptyXmlComponent } from "@file/xml-components/index.js";
 
-import { IShadingAttributesProperties, Shading } from "../../shading";
-import { ITableCellMarginOptions, TableCellMargin, TableCellMarginElementType } from "../table-properties/table-cell-margin";
-import { ITableWidthProperties, TableWidthElement } from "../table-width";
+import { IShadingAttributesProperties, Shading } from "../../shading/index.js";
+import { ITableCellMarginOptions, TableCellMargin, TableCellMarginElementType } from "../table-properties/table-cell-margin.js";
+import { ITableWidthProperties, TableWidthElement } from "../table-width.js";
 import {
     GridSpan,
     ITableCellBorders,
@@ -12,7 +12,7 @@ import {
     TextDirection,
     VerticalMerge,
     VerticalMergeType,
-} from "./table-cell-components";
+} from "./table-cell-components.js";
 
 export interface ITableCellPropertiesOptions {
     readonly shading?: IShadingAttributesProperties;

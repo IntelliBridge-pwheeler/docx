@@ -1,7 +1,7 @@
 // http://officeopenxml.com/drwPicFloating-textWrap.php
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
-import { IMargins } from "../floating";
+import { IMargins } from "../floating/index.js";
 
 class WrapTightAttributes extends XmlAttributeComponent<{
     readonly distT?: number;

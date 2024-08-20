@@ -1,6 +1,6 @@
-import { AttributeData, AttributePayload, Attributes, NextAttributeComponent, XmlComponent } from "@file/xml-components";
+import { AttributeData, AttributePayload, Attributes, NextAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
-import { hpsMeasureValue, PositiveUniversalMeasure } from "@util/values";
+import { hpsMeasureValue, PositiveUniversalMeasure } from "@util/values.js";
 
 // This represents element type CT_OnOff, which indicate a boolean value.
 //

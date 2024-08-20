@@ -1,6 +1,6 @@
 // http://www.datypic.com/sc/ooxml/e-w_compat-1.html
-import { OnOffElement, XmlComponent } from "@file/xml-components";
-import { CompatibilitySetting } from "./compatibility-setting/compatibility-setting";
+import { OnOffElement, XmlComponent } from "@file/xml-components/index.js";
+import { CompatibilitySetting } from "./compatibility-setting/compatibility-setting.js";
 
 // <xsd:complexType name="CT_Compat">
 // <xsd:sequence>

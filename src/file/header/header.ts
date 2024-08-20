@@ -1,8 +1,8 @@
 // http://officeopenxml.com/WPheaders.php
-import { InitializableXmlComponent, XmlComponent } from "@file/xml-components";
-import { Paragraph } from "../paragraph";
-import { Table } from "../table";
-import { HeaderAttributes } from "./header-attributes";
+import { InitializableXmlComponent, XmlComponent } from "@file/xml-components/index.js";
+import { Paragraph } from "../paragraph/index.js";
+import { Table } from "../table/index.js";
+import { HeaderAttributes } from "./header-attributes.js";
 
 export class Header extends InitializableXmlComponent {
     private readonly refId: number;

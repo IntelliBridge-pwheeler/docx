@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { SectionType, Type } from "./section-type";
+import { Formatter } from "@export/formatter.js";
+import { SectionType, Type } from "./section-type.js";
 
 describe("Type", () => {
     it("should create with even page section type", () => {

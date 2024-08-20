@@ -1,13 +1,13 @@
 import JSZip from "jszip";
 import xml from "xml";
 
-import { File } from "@file/file";
-import { obfuscate } from "@file/fonts/obfuscate-ttf-to-odttf";
+import { File } from "@file/file.js";
+import { obfuscate } from "@file/fonts/obfuscate-ttf-to-odttf.js";
 
-import { Formatter } from "../formatter";
-import { ImageReplacer } from "./image-replacer";
-import { NumberingReplacer } from "./numbering-replacer";
-import { PrettifyType } from "./packer";
+import { Formatter } from "../formatter.js";
+import { ImageReplacer } from "./image-replacer.js";
+import { NumberingReplacer } from "./numbering-replacer.js";
+import { PrettifyType } from "./packer.js";
 
 interface IXmlifyedFile {
     readonly data: string;

@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import * as components from "./components";
+import * as components from "./components.js";
 
 describe("Style components", () => {
     it("Name#constructor", () => {

@@ -1,8 +1,8 @@
-import { IMediaData, IMediaDataTransformation } from "@file/media";
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { IMediaData, IMediaDataTransformation } from "@file/media/index.js";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
-import { GraphicData } from "./graphic-data";
-import { OutlineOptions } from "./graphic-data/pic/shape-properties/outline/outline";
+import { GraphicData } from "./graphic-data/index.js";
+import { OutlineOptions } from "./graphic-data/pic/shape-properties/outline/outline.js";
 
 class GraphicAttributes extends XmlAttributeComponent<{
     readonly a: string;

@@ -1,7 +1,7 @@
-import { TargetModeType } from "@file/relationships/relationship/relationship";
+import { TargetModeType } from "@file/relationships/relationship/relationship.js";
 import { describe, expect, it } from "vitest";
 
-import { appendRelationship, getNextRelationshipIndex } from "./relationship-manager";
+import { appendRelationship, getNextRelationshipIndex } from "./relationship-manager.js";
 
 describe("relationship-manager", () => {
     describe("getNextRelationshipIndex", () => {

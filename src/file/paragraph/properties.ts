@@ -1,21 +1,21 @@
 // http://officeopenxml.com/WPparagraphProperties.php
 // https://c-rex.net/projects/samples/ooxml/e1/Part4/OOXML_P4_DOCX_suppressLineNumbers_topic_ID0ECJAO.html
 /* eslint-disable functional/immutable-data */
-import { IContext, IgnoreIfEmptyXmlComponent, IXmlableObject, OnOffElement, XmlComponent } from "@file/xml-components";
-import { DocumentWrapper } from "../document-wrapper";
-import { IShadingAttributesProperties, Shading } from "../shading";
-import { Alignment, AlignmentType } from "./formatting/alignment";
-import { Border, IBordersOptions, ThematicBreak } from "./formatting/border";
-import { PageBreakBefore } from "./formatting/break";
-import { IIndentAttributesProperties, Indent } from "./formatting/indent";
-import { ISpacingProperties, Spacing } from "./formatting/spacing";
-import { HeadingLevel, Style } from "./formatting/style";
-import { TabStop, TabStopDefinition, TabStopType } from "./formatting/tab-stop";
-import { NumberProperties } from "./formatting/unordered-list";
-import { WordWrap } from "./formatting/word-wrap";
-import { createFrameProperties, IFrameOptions } from "./frame/frame-properties";
-import { OutlineLevel } from "./links";
-import { IRunOptions, RunProperties } from ".";
+import { IContext, IgnoreIfEmptyXmlComponent, IXmlableObject, OnOffElement, XmlComponent } from "@file/xml-components/index.js";
+import { DocumentWrapper } from "../document-wrapper.js";
+import { IShadingAttributesProperties, Shading } from "../shading/index.js";
+import { Alignment, AlignmentType } from "./formatting/alignment.js";
+import { Border, IBordersOptions, ThematicBreak } from "./formatting/border.js";
+import { PageBreakBefore } from "./formatting/break.js";
+import { IIndentAttributesProperties, Indent } from "./formatting/indent.js";
+import { ISpacingProperties, Spacing } from "./formatting/spacing.js";
+import { HeadingLevel, Style } from "./formatting/style.js";
+import { TabStop, TabStopDefinition, TabStopType } from "./formatting/tab-stop.js";
+import { NumberProperties } from "./formatting/unordered-list.js";
+import { WordWrap } from "./formatting/word-wrap.js";
+import { createFrameProperties, IFrameOptions } from "./frame/frame-properties.js";
+import { OutlineLevel } from "./links/index.js";
+import { IRunOptions, RunProperties } from "./index.js";
 
 export interface ILevelParagraphStylePropertiesOptions {
     readonly alignment?: (typeof AlignmentType)[keyof typeof AlignmentType];

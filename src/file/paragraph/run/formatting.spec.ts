@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { CharacterSpacing, Color } from "./formatting";
+import { CharacterSpacing, Color } from "./formatting.js";
 
 describe("CharacterSpacing", () => {
     describe("#constructor()", () => {

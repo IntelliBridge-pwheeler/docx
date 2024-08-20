@@ -1,7 +1,7 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { IRunOptions, TextRun } from "../../index";
-import { ChangeAttributes, IChangedAttributesProperties } from "../track-revision";
+import { IRunOptions, TextRun } from "../../index.js";
+import { ChangeAttributes, IChangedAttributesProperties } from "../track-revision.js";
 
 interface IInsertedRunOptions extends IChangedAttributesProperties, IRunOptions {}
 

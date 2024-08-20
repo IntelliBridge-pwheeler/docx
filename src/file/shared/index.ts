@@ -1,3 +1,3 @@
-export * from "./alignment";
-export * from "./number-format";
-export * from "./space-type";
+export * from "./alignment.js";
+export * from "./number-format.js";
+export * from "./space-type.js";

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { Alignment, AlignmentType } from "./alignment";
+import { Formatter } from "@export/formatter.js";
+import { Alignment, AlignmentType } from "./alignment.js";
 
 describe("Alignment", () => {
     it("should create", () => {

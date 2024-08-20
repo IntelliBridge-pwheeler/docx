@@ -1,7 +1,7 @@
 import { Stream } from "stream";
-import { File } from "@file/file";
+import { File } from "@file/file.js";
 
-import { Compiler } from "./next-compiler";
+import { Compiler } from "./next-compiler.js";
 
 /**
  * Use blanks to prettify

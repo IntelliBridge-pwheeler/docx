@@ -1,7 +1,7 @@
-import { BuilderElement, XmlComponent } from "@file/xml-components";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
 
-import { createSchemeColor, SchemeColor } from "./scheme-color";
-import { createSolidRgbColor } from "./rgb-color";
+import { createSchemeColor, SchemeColor } from "./scheme-color.js";
+import { createSolidRgbColor } from "./rgb-color.js";
 
 export type RgbColorOptions = {
     readonly type: "rgb";

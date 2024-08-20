@@ -1,17 +1,17 @@
-import { ICommentsOptions } from "@file/paragraph/run/comment-run";
-import { ICompatibilityOptions } from "@file/settings/compatibility";
-import { FontOptions } from "@file/fonts/font-table";
-import { StringContainer, XmlComponent } from "@file/xml-components";
-import { dateTimeValue } from "@util/values";
+import { ICommentsOptions } from "@file/paragraph/run/comment-run.js";
+import { ICompatibilityOptions } from "@file/settings/compatibility.js";
+import { FontOptions } from "@file/fonts/font-table.js";
+import { StringContainer, XmlComponent } from "@file/xml-components/index.js";
+import { dateTimeValue } from "@util/values.js";
 
-import { ICustomPropertyOptions } from "../custom-properties";
-import { IDocumentBackgroundOptions } from "../document";
+import { ICustomPropertyOptions } from "../custom-properties/index.js";
+import { IDocumentBackgroundOptions } from "../document/index.js";
 
-import { DocumentAttributes } from "../document/document-attributes";
-import { ISectionOptions } from "../file";
-import { INumberingOptions } from "../numbering";
-import { Paragraph } from "../paragraph";
-import { IStylesOptions } from "../styles";
+import { DocumentAttributes } from "../document/document-attributes.js";
+import { ISectionOptions } from "../file.js";
+import { INumberingOptions } from "../numbering/index.js";
+import { Paragraph } from "../paragraph/index.js";
+import { IStylesOptions } from "../styles/index.js";
 
 export interface IPropertiesOptions {
     readonly sections: readonly ISectionOptions[];

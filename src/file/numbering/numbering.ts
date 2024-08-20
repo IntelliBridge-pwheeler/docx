@@ -1,13 +1,13 @@
 // http://officeopenxml.com/WPnumbering.php
 // https://stackoverflow.com/questions/58622437/purpose-of-abstractnum-and-numberinginstance
-import { AlignmentType } from "@file/paragraph";
-import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components";
-import { abstractNumUniqueNumericIdGen, concreteNumUniqueNumericIdGen, convertInchesToTwip } from "@util/convenience-functions";
+import { AlignmentType } from "@file/paragraph/index.js";
+import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components/index.js";
+import { abstractNumUniqueNumericIdGen, concreteNumUniqueNumericIdGen, convertInchesToTwip } from "@util/convenience-functions.js";
 
-import { DocumentAttributes } from "../document/document-attributes";
-import { AbstractNumbering } from "./abstract-numbering";
-import { ILevelsOptions, LevelFormat } from "./level";
-import { ConcreteNumbering } from "./num";
+import { DocumentAttributes } from "../document/document-attributes.js";
+import { AbstractNumbering } from "./abstract-numbering.js";
+import { ILevelsOptions, LevelFormat } from "./level.js";
+import { ConcreteNumbering } from "./num.js";
 
 export interface INumberingOptions {
     readonly config: readonly {

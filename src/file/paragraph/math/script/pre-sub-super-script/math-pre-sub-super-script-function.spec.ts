@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathRun } from "../../math-run";
-import { MathPreSubSuperScript } from "./math-pre-sub-super-script-function";
+import { MathRun } from "../../math-run.js";
+import { MathPreSubSuperScript } from "./math-pre-sub-super-script-function.js";
 
 describe("MathPreSubScript", () => {
     describe("#constructor()", () => {

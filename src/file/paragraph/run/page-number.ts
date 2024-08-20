@@ -1,7 +1,7 @@
-import { SpaceType } from "@file/shared";
-import { XmlComponent } from "@file/xml-components";
+import { SpaceType } from "@file/shared/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { TextAttributes } from "./text-attributes";
+import { TextAttributes } from "./text-attributes.js";
 
 export class Page extends XmlComponent {
     public constructor() {

@@ -1,8 +1,8 @@
 // https://www.ecma-international.org/wp-content/uploads/ECMA-376-1_5th_edition_december_2016.zip page 297, section 17.3.2.21
 /* eslint-disable functional/immutable-data */
-import { BorderElement, IBorderOptions } from "@file/border";
-import { IShadingAttributesProperties, Shading } from "@file/shading";
-import { ChangeAttributes, IChangedAttributesProperties } from "@file/track-revision/track-revision";
+import { BorderElement, IBorderOptions } from "@file/border/index.js";
+import { IShadingAttributesProperties, Shading } from "@file/shading/index.js";
+import { ChangeAttributes, IChangedAttributesProperties } from "@file/track-revision/track-revision.js";
 import {
     HpsMeasureElement,
     IgnoreIfEmptyXmlComponent,
@@ -10,15 +10,15 @@ import {
     OnOffElement,
     StringValueElement,
     XmlComponent,
-} from "@file/xml-components";
-import { PositiveUniversalMeasure, UniversalMeasure } from "@util/values";
+} from "@file/xml-components/index.js";
+import { PositiveUniversalMeasure, UniversalMeasure } from "@util/values.js";
 
-import { EmphasisMark, EmphasisMarkType } from "./emphasis-mark";
-import { CharacterSpacing, Color, Highlight, HighlightComplexScript } from "./formatting";
-import { createLanguageComponent, ILanguageOptions } from "./language";
-import { IFontAttributesProperties, RunFonts } from "./run-fonts";
-import { SubScript, SuperScript } from "./script";
-import { Underline, UnderlineType } from "./underline";
+import { EmphasisMark, EmphasisMarkType } from "./emphasis-mark.js";
+import { CharacterSpacing, Color, Highlight, HighlightComplexScript } from "./formatting.js";
+import { createLanguageComponent, ILanguageOptions } from "./language.js";
+import { IFontAttributesProperties, RunFonts } from "./run-fonts.js";
+import { SubScript, SuperScript } from "./script.js";
+import { Underline, UnderlineType } from "./underline.js";
 
 interface IFontOptions {
     readonly name: string;

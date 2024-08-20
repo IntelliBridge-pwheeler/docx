@@ -1,13 +1,13 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { AlignmentType } from "@file/paragraph";
-import { ShadingType } from "@file/shading";
+import { AlignmentType } from "@file/paragraph/index.js";
+import { ShadingType } from "@file/shading/index.js";
 
-import { WidthType } from "../table-width";
-import { TableLayoutType } from "./table-layout";
-import { TableProperties } from "./table-properties";
+import { WidthType } from "../table-width.js";
+import { TableLayoutType } from "./table-layout.js";
+import { TableProperties } from "./table-properties.js";
 
 describe("TableProperties", () => {
     describe("#constructor", () => {

@@ -1,2 +1,2 @@
-export * from "./table-of-contents";
-export * from "./table-of-contents-properties";
+export * from "./table-of-contents.js";
+export * from "./table-of-contents-properties.js";

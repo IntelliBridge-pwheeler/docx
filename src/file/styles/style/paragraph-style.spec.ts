@@ -1,13 +1,13 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { AlignmentType, EmphasisMarkType, TabStopPosition } from "@file/paragraph";
-import { UnderlineType } from "@file/paragraph/run/underline";
-import { HighlightColor } from "@file/paragraph/run";
-import { ShadingType } from "@file/shading";
-import { EMPTY_OBJECT } from "@file/xml-components";
+import { Formatter } from "@export/formatter.js";
+import { AlignmentType, EmphasisMarkType, TabStopPosition } from "@file/paragraph/index.js";
+import { UnderlineType } from "@file/paragraph/run/underline.js";
+import { HighlightColor } from "@file/paragraph/run/index.js";
+import { ShadingType } from "@file/shading/index.js";
+import { EMPTY_OBJECT } from "@file/xml-components/index.js";
 
-import { StyleForParagraph } from "./paragraph-style";
+import { StyleForParagraph } from "./paragraph-style.js";
 
 describe("ParagraphStyle", () => {
     describe("#constructor", () => {

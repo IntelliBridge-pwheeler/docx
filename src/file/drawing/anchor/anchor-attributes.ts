@@ -1,5 +1,5 @@
-import { XmlAttributeComponent } from "@file/xml-components";
-import { IDistance } from "../drawing";
+import { XmlAttributeComponent } from "@file/xml-components/index.js";
+import { IDistance } from "../drawing.js";
 
 export interface IAnchorAttributes extends IDistance {
     readonly allowOverlap?: "0" | "1";

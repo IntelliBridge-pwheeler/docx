@@ -1,9 +1,9 @@
 // http://officeopenxml.com/WPtableGrid.php
-import { Paragraph } from "@file/paragraph";
-import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components";
+import { Paragraph } from "@file/paragraph/index.js";
+import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components/index.js";
 
-import { Table } from "../table";
-import { ITableCellPropertiesOptions, TableCellProperties } from "./table-cell-properties";
+import { Table } from "../table.js";
+import { ITableCellPropertiesOptions, TableCellProperties } from "./table-cell-properties.js";
 
 export interface ITableCellOptions extends ITableCellPropertiesOptions {
     readonly children: readonly (Paragraph | Table)[];

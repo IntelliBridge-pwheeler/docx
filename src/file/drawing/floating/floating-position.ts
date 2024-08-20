@@ -1,8 +1,8 @@
 // http://officeopenxml.com/drwPicFloating-position.php
 // http://officeopenxml.com/drwPicFloating.php
-import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared/alignment";
+import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared/alignment.js";
 
-import { ITextWrapping } from "../text-wrap";
+import { ITextWrapping } from "../text-wrap/index.js";
 
 /* eslint-disable @typescript-eslint/naming-convention */
 export const HorizontalPositionRelativeFrom = {

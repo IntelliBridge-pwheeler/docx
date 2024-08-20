@@ -1,5 +1,5 @@
-import { BuilderElement, XmlComponent } from "@file/xml-components";
-import { IMediaData } from "@file/media";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
+import { IMediaData } from "@file/media/index.js";
 
 const createSvgBlip = (mediaData: IMediaData): XmlComponent =>
     new BuilderElement({

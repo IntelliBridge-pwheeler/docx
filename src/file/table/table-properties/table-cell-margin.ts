@@ -1,5 +1,5 @@
-import { IgnoreIfEmptyXmlComponent } from "@file/xml-components";
-import { TableWidthElement, WidthType } from "@file/table";
+import { IgnoreIfEmptyXmlComponent } from "@file/xml-components/index.js";
+import { TableWidthElement, WidthType } from "@file/table/index.js";
 
 export interface ITableCellMarginOptions {
     readonly marginUnitType?: (typeof WidthType)[keyof typeof WidthType];

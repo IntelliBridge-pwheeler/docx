@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { SpaceType } from "@file/shared";
+import { Formatter } from "@export/formatter.js";
+import { SpaceType } from "@file/shared/index.js";
 
-import { Text } from "./text";
+import { Text } from "./text.js";
 
 describe("Text", () => {
     describe("#constructor", () => {

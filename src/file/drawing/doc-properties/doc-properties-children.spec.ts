@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { createHyperlinkClick, createHyperlinkHover } from "./doc-properties-children";
+import { createHyperlinkClick, createHyperlinkHover } from "./doc-properties-children.js";
 
 describe("Document Properties Children", () => {
     describe("#createHyperlinkClick", () => {

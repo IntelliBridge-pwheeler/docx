@@ -1,8 +1,8 @@
-import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components";
-import { createHyperlinkClick } from "@file/drawing/doc-properties/doc-properties-children";
-import { ConcreteHyperlink } from "@file/paragraph";
+import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components/index.js";
+import { createHyperlinkClick } from "@file/drawing/doc-properties/doc-properties-children.js";
+import { ConcreteHyperlink } from "@file/paragraph/index.js";
 
-import { NonVisualPropertiesAttributes } from "./non-visual-properties-attributes";
+import { NonVisualPropertiesAttributes } from "./non-visual-properties-attributes.js";
 
 // <complexType name="CT_NonVisualDrawingProps">
 //     <sequence>

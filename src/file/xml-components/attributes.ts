@@ -1,4 +1,4 @@
-import { XmlAttributeComponent } from "./default-attributes";
+import { XmlAttributeComponent } from "./default-attributes.js";
 
 export class Attributes extends XmlAttributeComponent<{
     readonly val?: string | number | boolean;

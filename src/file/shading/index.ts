@@ -1,1 +1,1 @@
-export * from "./shading";
+export * from "./shading.js";

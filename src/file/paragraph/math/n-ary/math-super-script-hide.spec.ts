@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathSuperScriptHide } from "./math-super-script-hide";
+import { MathSuperScriptHide } from "./math-super-script-hide.js";
 
 describe("MathSuperScriptHide", () => {
     describe("#constructor()", () => {

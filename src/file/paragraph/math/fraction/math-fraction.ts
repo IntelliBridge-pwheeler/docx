@@ -1,8 +1,8 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { MathComponent } from "../math-component";
-import { MathDenominator } from "./math-denominator";
-import { MathNumerator } from "./math-numerator";
+import { MathComponent } from "../math-component.js";
+import { MathDenominator } from "./math-denominator.js";
+import { MathNumerator } from "./math-numerator.js";
 
 export interface IMathFractionOptions {
     readonly numerator: readonly MathComponent[];

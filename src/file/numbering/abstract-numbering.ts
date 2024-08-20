@@ -1,8 +1,8 @@
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { decimalNumber } from "@util/values";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { decimalNumber } from "@util/values.js";
 
-import { ILevelsOptions, Level } from "./level";
-import { MultiLevelType } from "./multi-level-type";
+import { ILevelsOptions, Level } from "./level.js";
+import { MultiLevelType } from "./multi-level-type.js";
 
 // <xsd:complexType name="CT_AbstractNum">
 // <xsd:sequence>

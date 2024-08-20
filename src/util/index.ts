@@ -1,2 +1,2 @@
-export * from "./convenience-functions";
-export * from "./values";
+export * from "./convenience-functions.js";
+export * from "./values.js";

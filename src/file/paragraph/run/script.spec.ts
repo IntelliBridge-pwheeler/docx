@@ -1,8 +1,8 @@
 import { assert, beforeEach, describe, it } from "vitest";
 
-import { Utility } from "tests/utility";
+import { Utility } from "tests/utility.js";
 
-import { SubScript, SuperScript } from "./script";
+import { SubScript, SuperScript } from "./script.js";
 
 describe("SubScript", () => {
     let subScript: SubScript;

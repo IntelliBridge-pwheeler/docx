@@ -1,8 +1,8 @@
 // http://officeopenxml.com/drwSp-outline.php
-import { BuilderElement, XmlComponent } from "@file/xml-components";
-import { createNoFill } from "./no-fill";
-import { createSolidFill } from "./solid-fill";
-import { SchemeColor } from "./scheme-color";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
+import { createNoFill } from "./no-fill.js";
+import { createSolidFill } from "./solid-fill.js";
+import { SchemeColor } from "./scheme-color.js";
 
 // <xsd:complexType name="CT_TextOutlineEffect">
 //     <xsd:sequence>

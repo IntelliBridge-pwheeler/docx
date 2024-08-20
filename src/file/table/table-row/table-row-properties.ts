@@ -27,10 +27,10 @@
 //         </xsd:extension>
 //     </xsd:complexContent>
 // </xsd:complexType>
-import { IgnoreIfEmptyXmlComponent, OnOffElement } from "@file/xml-components";
-import { PositiveUniversalMeasure } from "@util/values";
+import { IgnoreIfEmptyXmlComponent, OnOffElement } from "@file/xml-components/index.js";
+import { PositiveUniversalMeasure } from "@util/values.js";
 
-import { HeightRule, TableRowHeight } from "./table-row-height";
+import { HeightRule, TableRowHeight } from "./table-row-height.js";
 
 export interface ITableRowPropertiesOptions {
     readonly cantSplit?: boolean;

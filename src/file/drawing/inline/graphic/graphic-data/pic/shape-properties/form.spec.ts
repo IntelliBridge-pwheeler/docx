@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { Form } from "./form/form";
+import { Formatter } from "@export/formatter.js";
+import { Form } from "./form/form.js";
 
 describe("Form", () => {
     describe("#constructor()", () => {

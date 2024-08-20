@@ -1,8 +1,8 @@
 // http://www.datypic.com/sc/ooxml/e-m_limUpp-1.html
-import { XmlComponent } from "@file/xml-components";
-import { MathComponent } from "../math-component";
-import { MathBase } from "./math-base";
-import { MathLimit } from "./math-limit";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { MathComponent } from "../math-component.js";
+import { MathBase } from "./math-base.js";
+import { MathLimit } from "./math-limit.js";
 
 export interface IMathLimitUpperOptions {
     readonly children: readonly MathComponent[];

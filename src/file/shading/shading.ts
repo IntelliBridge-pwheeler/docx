@@ -17,8 +17,8 @@
 //     <xsd:attribute name="themeFillTint" type="ST_UcharHexNumber" use="optional"/>
 //     <xsd:attribute name="themeFillShade" type="ST_UcharHexNumber" use="optional"/>
 // </xsd:complexType>
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { hexColorValue } from "@util/values";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { hexColorValue } from "@util/values.js";
 
 export interface IShadingAttributesProperties {
     readonly fill?: string;

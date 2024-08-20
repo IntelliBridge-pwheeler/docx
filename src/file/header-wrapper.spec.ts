@@ -1,9 +1,9 @@
 import { describe, expect, it, vi } from "vitest";
 
-import { HeaderWrapper } from "./header-wrapper";
-import { Media } from "./media";
-import { Paragraph } from "./paragraph";
-import { Table, TableCell, TableRow } from "./table";
+import { HeaderWrapper } from "./header-wrapper.js";
+import { Media } from "./media/index.js";
+import { Paragraph } from "./paragraph/index.js";
+import { Table, TableCell, TableRow } from "./table/index.js";
 
 describe("HeaderWrapper", () => {
     describe("#add", () => {

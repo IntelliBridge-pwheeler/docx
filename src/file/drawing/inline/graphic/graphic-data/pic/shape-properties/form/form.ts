@@ -1,10 +1,10 @@
 // http://officeopenxml.com/drwSp-size.php
 // http://officeopenxml.com/drwSp-rotate.php
-import { IMediaDataTransformation } from "@file/media";
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { IMediaDataTransformation } from "@file/media/index.js";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
-import { Extents } from "./extents/extents";
-import { Offset } from "./offset/off";
+import { Extents } from "./extents/extents.js";
+import { Offset } from "./offset/off.js";
 
 export class FormAttributes extends XmlAttributeComponent<{
     readonly flipVertical?: boolean;

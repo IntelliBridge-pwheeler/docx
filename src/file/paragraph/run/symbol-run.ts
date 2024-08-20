@@ -1,5 +1,5 @@
-import { IRunOptions, Run } from "./run";
-import { Symbol } from "./run-components/symbol";
+import { IRunOptions, Run } from "./run.js";
+import { Symbol } from "./run-components/symbol.js";
 
 export interface ISymbolRunOptions extends IRunOptions {
     readonly char: string;

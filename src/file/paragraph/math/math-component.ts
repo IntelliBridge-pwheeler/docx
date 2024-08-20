@@ -1,10 +1,10 @@
-import { MathAngledBrackets, MathCurlyBrackets, MathRoundBrackets, MathSquareBrackets } from "./brackets";
-import { MathFraction } from "./fraction";
-import { MathFunction } from "./function";
-import { MathRun } from "./math-run";
-import { MathSum, MathIntegral } from "./n-ary";
-import { MathRadical } from "./radical";
-import { MathSubScript, MathSubSuperScript, MathSuperScript } from "./script";
+import { MathAngledBrackets, MathCurlyBrackets, MathRoundBrackets, MathSquareBrackets } from "./brackets/index.js";
+import { MathFraction } from "./fraction/index.js";
+import { MathFunction } from "./function/index.js";
+import { MathRun } from "./math-run.js";
+import { MathSum, MathIntegral } from "./n-ary/index.js";
+import { MathRadical } from "./radical/index.js";
+import { MathSubScript, MathSubSuperScript, MathSuperScript } from "./script/index.js";
 
 export type MathComponent =
     | MathRun

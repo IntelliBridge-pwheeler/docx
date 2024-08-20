@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import JSZip from "jszip";
-import { patchDetector } from "./patch-detector";
+import { patchDetector } from "./patch-detector.js";
 
 const MOCK_XML = `
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>

@@ -1,5 +1,5 @@
-import { XmlComponent } from "@file/xml-components";
-import { OverrideAttributes } from "./override-attributes";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { OverrideAttributes } from "./override-attributes.js";
 
 export class Override extends XmlComponent {
     public constructor(contentType: string, partName?: string) {

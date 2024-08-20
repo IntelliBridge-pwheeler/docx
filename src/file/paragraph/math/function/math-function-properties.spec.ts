@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathFunctionProperties } from "./math-function-properties";
+import { MathFunctionProperties } from "./math-function-properties.js";
 
 describe("MathFunctionProperties", () => {
     describe("#constructor()", () => {

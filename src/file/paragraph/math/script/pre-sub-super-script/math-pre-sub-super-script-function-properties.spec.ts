@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { MathPreSubSuperScriptProperties } from "./math-pre-sub-super-script-function-properties";
+import { Formatter } from "@export/formatter.js";
+import { MathPreSubSuperScriptProperties } from "./math-pre-sub-super-script-function-properties.js";
 
 describe("MathPreSubSuperScriptProperties", () => {
     describe("#constructor()", () => {

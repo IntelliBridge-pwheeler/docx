@@ -1,6 +1,6 @@
-import { Run } from "@file/paragraph";
+import { Run } from "@file/paragraph/index.js";
 
-import { FootnoteRef } from "./footnote-ref";
+import { FootnoteRef } from "./footnote-ref.js";
 
 export class FootnoteRefRun extends Run {
     public constructor() {

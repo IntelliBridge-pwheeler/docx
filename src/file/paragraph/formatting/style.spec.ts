@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Style } from "./style";
+import { Style } from "./style.js";
 
 describe("ParagraphStyle", () => {
     let style: Style;

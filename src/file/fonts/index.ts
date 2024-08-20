@@ -1,1 +1,1 @@
-export { CharacterSet } from "./font";
+export { CharacterSet } from "./font.js";

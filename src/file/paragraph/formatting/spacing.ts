@@ -1,5 +1,5 @@
 // http://officeopenxml.com/WPspacing.php
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
 export const LineRuleType = {
     // eslint-disable-next-line @typescript-eslint/naming-convention

@@ -1,5 +1,5 @@
-import { NextAttributeComponent, XmlComponent } from "@file/xml-components";
-import { PositiveUniversalMeasure, signedTwipsMeasureValue, twipsMeasureValue, UniversalMeasure } from "@util/values";
+import { NextAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { PositiveUniversalMeasure, signedTwipsMeasureValue, twipsMeasureValue, UniversalMeasure } from "@util/values.js";
 
 // <xsd:complexType name="CT_PageMar">
 //     <xsd:attribute name="top" type="ST_SignedTwipsMeasure" use="required"/>

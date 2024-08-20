@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { findRunElementIndexWithToken, splitRunElement } from "./paragraph-split-inject";
+import { findRunElementIndexWithToken, splitRunElement } from "./paragraph-split-inject.js";
 
 describe("paragraph-split-inject", () => {
     describe("findRunElementIndexWithToken", () => {

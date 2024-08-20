@@ -1,4 +1,4 @@
-import { BuilderElement, XmlComponent } from "@file/xml-components";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
 
 // <xsd:complexType name="CT_Language">
 //   <xsd:attribute name="val" type="s:ST_Lang" use="optional"/>

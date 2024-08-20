@@ -1,3 +1,3 @@
-export * from "./drawing";
-export * from "./text-wrap";
-export * from "./floating";
+export * from "./drawing.js";
+export * from "./text-wrap/index.js";
+export * from "./floating/index.js";

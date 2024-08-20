@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { findLocationOfText } from "./traverser";
+import { findLocationOfText } from "./traverser.js";
 
 const MOCK_JSON = {
     elements: [

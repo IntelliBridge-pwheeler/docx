@@ -1,5 +1,5 @@
-import { XmlComponent } from "@file/xml-components";
-import { RelationshipAttributes } from "./relationship-attributes";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { RelationshipAttributes } from "./relationship-attributes.js";
 
 export type RelationshipType =
     | "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"

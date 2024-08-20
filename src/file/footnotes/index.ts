@@ -1,2 +1,2 @@
-export * from "./footnotes";
-export * from "./footnote";
+export * from "./footnotes.js";
+export * from "./footnote/index.js";

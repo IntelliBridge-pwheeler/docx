@@ -1,3 +1,3 @@
-export * from "./paragraph-properties";
-export * from "./run-properties";
-export * from "./document-defaults";
+export * from "./paragraph-properties.js";
+export * from "./run-properties.js";
+export * from "./document-defaults.js";

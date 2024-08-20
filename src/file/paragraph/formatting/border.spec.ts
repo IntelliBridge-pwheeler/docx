@@ -1,9 +1,9 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { BorderStyle } from "@file/border";
-import { Border, ThematicBreak } from "./border";
+import { BorderStyle } from "@file/border/index.js";
+import { Border, ThematicBreak } from "./border.js";
 
 describe("Border", () => {
     describe("#constructor", () => {

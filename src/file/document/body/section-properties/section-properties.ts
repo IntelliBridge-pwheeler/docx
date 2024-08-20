@@ -1,21 +1,21 @@
 // http://officeopenxml.com/WPsection.php
 // tslint:disable: no-unnecessary-initializer
 
-import { FooterWrapper } from "@file/footer-wrapper";
-import { HeaderWrapper } from "@file/header-wrapper";
-import { VerticalAlign, VerticalAlignElement } from "@file/vertical-align";
-import { OnOffElement, XmlComponent } from "@file/xml-components";
+import { FooterWrapper } from "@file/footer-wrapper.js";
+import { HeaderWrapper } from "@file/header-wrapper.js";
+import { VerticalAlign, VerticalAlignElement } from "@file/vertical-align/index.js";
+import { OnOffElement, XmlComponent } from "@file/xml-components/index.js";
 
-import { HeaderFooterReference, HeaderFooterReferenceType, HeaderFooterType } from "./properties/header-footer-reference";
-import { Columns, IColumnsAttributes } from "./properties/columns";
-import { DocumentGrid, IDocGridAttributesProperties } from "./properties/doc-grid";
-import { ILineNumberAttributes, createLineNumberType } from "./properties/line-number";
-import { IPageBordersOptions, PageBorders } from "./properties/page-borders";
-import { IPageMarginAttributes, PageMargin } from "./properties/page-margin";
-import { IPageNumberTypeAttributes, PageNumberType } from "./properties/page-number";
-import { IPageSizeAttributes, PageOrientation, PageSize } from "./properties/page-size";
-import { PageTextDirection, PageTextDirectionType } from "./properties/page-text-direction";
-import { SectionType, Type } from "./properties/section-type";
+import { HeaderFooterReference, HeaderFooterReferenceType, HeaderFooterType } from "./properties/header-footer-reference.js";
+import { Columns, IColumnsAttributes } from "./properties/columns.js";
+import { DocumentGrid, IDocGridAttributesProperties } from "./properties/doc-grid.js";
+import { ILineNumberAttributes, createLineNumberType } from "./properties/line-number.js";
+import { IPageBordersOptions, PageBorders } from "./properties/page-borders.js";
+import { IPageMarginAttributes, PageMargin } from "./properties/page-margin.js";
+import { IPageNumberTypeAttributes, PageNumberType } from "./properties/page-number.js";
+import { IPageSizeAttributes, PageOrientation, PageSize } from "./properties/page-size.js";
+import { PageTextDirection, PageTextDirectionType } from "./properties/page-text-direction.js";
+import { SectionType, Type } from "./properties/section-type.js";
 
 export interface IHeaderFooterGroup<T> {
     readonly default?: T;

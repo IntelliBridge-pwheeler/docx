@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { PositionOffset } from "./position-offset";
+import { PositionOffset } from "./position-offset.js";
 
 describe("PositionOffset", () => {
     describe("#constructor()", () => {

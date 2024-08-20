@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { TableOfContents } from "./table-of-contents";
-import { StyleLevel } from "./table-of-contents-properties";
+import { TableOfContents } from "./table-of-contents.js";
+import { StyleLevel } from "./table-of-contents-properties.js";
 
 describe("Table of Contents", () => {
     describe("#constructor", () => {

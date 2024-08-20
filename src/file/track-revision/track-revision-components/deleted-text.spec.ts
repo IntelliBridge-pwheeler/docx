@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { DeletedText } from "./deleted-text";
+import { DeletedText } from "./deleted-text.js";
 
 describe("Deleted Text", () => {
     describe("#constructor", () => {

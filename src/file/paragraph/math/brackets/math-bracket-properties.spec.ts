@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathBracketProperties } from "./math-bracket-properties";
+import { MathBracketProperties } from "./math-bracket-properties.js";
 
 describe("MathBracketProperties", () => {
     describe("#constructor()", () => {

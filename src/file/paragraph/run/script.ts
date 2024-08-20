@@ -1,4 +1,4 @@
-import { Attributes, XmlComponent } from "@file/xml-components";
+import { Attributes, XmlComponent } from "@file/xml-components/index.js";
 
 export abstract class VerticalAlign extends XmlComponent {
     public constructor(type: string) {

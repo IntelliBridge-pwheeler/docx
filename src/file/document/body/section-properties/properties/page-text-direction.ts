@@ -1,4 +1,4 @@
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
 /* eslint-disable @typescript-eslint/naming-convention */
 export const PageTextDirectionType = {

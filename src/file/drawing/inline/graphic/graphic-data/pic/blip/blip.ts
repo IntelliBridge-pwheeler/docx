@@ -1,6 +1,6 @@
-import { IMediaData } from "@file/media";
-import { BuilderElement, XmlComponent } from "@file/xml-components";
-import { createExtentionList } from "./blip-extentions";
+import { IMediaData } from "@file/media/index.js";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
+import { createExtentionList } from "./blip-extentions.js";
 
 type BlipAttributes = {
     readonly embed: string;

@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathRun } from "../math-run";
-import { MathRoundBrackets } from "./math-round-brackets";
+import { MathRun } from "../math-run.js";
+import { MathRoundBrackets } from "./math-round-brackets.js";
 
 describe("MathRoundBrackets", () => {
     describe("#constructor()", () => {

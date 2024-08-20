@@ -1,6 +1,6 @@
 // http://officeopenxml.com/WPsectionLineNumbering.php
-import { BuilderElement, XmlComponent } from "@file/xml-components";
-import { decimalNumber, PositiveUniversalMeasure, twipsMeasureValue } from "@util/values";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
+import { decimalNumber, PositiveUniversalMeasure, twipsMeasureValue } from "@util/values.js";
 
 // <xsd:simpleType name="ST_LineNumberRestart">
 // <xsd:restriction base="xsd:string">

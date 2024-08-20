@@ -1,4 +1,4 @@
-import { IMediaData } from "./data";
+import { IMediaData } from "./data.js";
 
 export interface IMediaTransformation {
     readonly width: number;

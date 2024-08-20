@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Indent } from "./indent";
+import { Indent } from "./indent.js";
 
 describe("Indent", () => {
     it("should create", () => {

@@ -1,12 +1,12 @@
 // http://officeopenxml.com/drwPicInline.php
-import { IMediaData, IMediaDataTransformation } from "@file/media";
-import { BuilderElement, XmlComponent } from "@file/xml-components";
-import { DocProperties, DocPropertiesOptions } from "./../doc-properties/doc-properties";
-import { createEffectExtent } from "./../effect-extent/effect-extent";
-import { Extent } from "./../extent/extent";
-import { GraphicFrameProperties } from "./../graphic-frame/graphic-frame-properties";
-import { Graphic } from "./../inline/graphic";
-import { OutlineOptions } from "./graphic/graphic-data/pic/shape-properties/outline/outline";
+import { IMediaData, IMediaDataTransformation } from "@file/media/index.js";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
+import { DocProperties, DocPropertiesOptions } from "./../doc-properties/doc-properties.js";
+import { createEffectExtent } from "./../effect-extent/effect-extent.js";
+import { Extent } from "./../extent/extent.js";
+import { GraphicFrameProperties } from "./../graphic-frame/graphic-frame-properties.js";
+import { Graphic } from "./../inline/graphic/index.js";
+import { OutlineOptions } from "./graphic/graphic-data/pic/shape-properties/outline/outline.js";
 
 type InlineOptions = {
     readonly mediaData: IMediaData;

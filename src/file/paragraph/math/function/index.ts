@@ -1,3 +1,3 @@
-export * from "./math-function";
-export * from "./math-function-name";
-export * from "./math-function-properties";
+export * from "./math-function.js";
+export * from "./math-function-name.js";
+export * from "./math-function-properties.js";

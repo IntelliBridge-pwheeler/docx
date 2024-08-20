@@ -1,9 +1,9 @@
 // tslint:disable:no-string-literal
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Relationships } from "./relationships";
+import { Relationships } from "./relationships.js";
 
 describe("Relationships", () => {
     describe("#constructor()", () => {

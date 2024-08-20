@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { PositionalTab, PositionalTabAlignment, PositionalTabLeader, PositionalTabRelativeTo } from "./positional-tab";
+import { PositionalTab, PositionalTabAlignment, PositionalTabLeader, PositionalTabRelativeTo } from "./positional-tab.js";
 
 describe("PositionalTab", () => {
     it("should create a PositionalTab with correct root key", () => {

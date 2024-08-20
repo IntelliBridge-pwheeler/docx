@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathDegreeHide } from "./math-degree-hide";
+import { MathDegreeHide } from "./math-degree-hide.js";
 
 describe("MathDegreeHide", () => {
     describe("#constructor()", () => {

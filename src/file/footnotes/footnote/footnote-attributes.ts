@@ -1,4 +1,4 @@
-import { XmlAttributeComponent } from "@file/xml-components";
+import { XmlAttributeComponent } from "@file/xml-components/index.js";
 
 export class FootnoteAttributes extends XmlAttributeComponent<{
     readonly type?: string;

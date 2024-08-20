@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { ExternalStylesFactory } from "./external-styles-factory";
+import { ExternalStylesFactory } from "./external-styles-factory.js";
 
 describe("External styles factory", () => {
     let externalStyles: string;

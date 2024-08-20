@@ -1,8 +1,8 @@
-import { BuilderElement, XmlComponent } from "@file/xml-components";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
 
-import { createRegularFont } from "./create-regular-font";
-import { FontOptionsWithKey } from "./font-wrapper";
-import { CharacterSet } from "./font";
+import { createRegularFont } from "./create-regular-font.js";
+import { FontOptionsWithKey } from "./font-wrapper.js";
+import { CharacterSet } from "./font.js";
 
 // <xsd:complexType name="CT_FontsList">
 //     <xsd:sequence>

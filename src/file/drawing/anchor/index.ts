@@ -1,2 +1,2 @@
-export * from "./anchor";
-export * from "./anchor-attributes";
+export * from "./anchor.js";
+export * from "./anchor-attributes.js";

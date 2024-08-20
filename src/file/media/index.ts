@@ -1,2 +1,2 @@
-export * from "./media";
-export * from "./data";
+export * from "./media.js";
+export * from "./data.js";

@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Document } from "./document";
+import { Document } from "./document.js";
 
 describe("Document", () => {
     let document: Document;

@@ -1,5 +1,5 @@
 // http://officeopenxml.com/drwPicFloating-textWrap.php
-import { IDistance } from "../drawing";
+import { IDistance } from "../drawing.js";
 
 /* eslint-disable @typescript-eslint/naming-convention */
 export const TextWrappingType = {

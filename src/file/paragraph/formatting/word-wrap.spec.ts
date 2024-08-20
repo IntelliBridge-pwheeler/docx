@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { WordWrap } from "./word-wrap";
+import { WordWrap } from "./word-wrap.js";
 
 describe("WordWrap", () => {
     it("should create", () => {

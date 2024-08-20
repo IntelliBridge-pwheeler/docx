@@ -7,8 +7,8 @@
 // </xsd:complexType>
 // <xsd:element name="checkbox" type="CT_SdtCheckbox"/>
 
-import { XmlComponent } from "@file/xml-components";
-import { CheckBoxSymbolElement } from "@file/checkbox/checkbox-symbol";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { CheckBoxSymbolElement } from "@file/checkbox/checkbox-symbol.js";
 
 export interface ICheckboxSymbolProperties {
     readonly value?: string;

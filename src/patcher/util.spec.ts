@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { createTextElementContents, getFirstLevelElements, patchSpaceAttribute, toJson } from "./util";
+import { createTextElementContents, getFirstLevelElements, patchSpaceAttribute, toJson } from "./util.js";
 
 describe("util", () => {
     describe("toJson", () => {

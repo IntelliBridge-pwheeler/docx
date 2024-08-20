@@ -1,13 +1,13 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { BorderStyle } from "@file/border";
-import { VerticalAlign } from "@file/vertical-align";
+import { Formatter } from "@export/formatter.js";
+import { BorderStyle } from "@file/border/index.js";
+import { VerticalAlign } from "@file/vertical-align/index.js";
 
-import { WidthType } from "../table-width";
+import { WidthType } from "../table-width.js";
 
-import { VerticalMergeType } from "./table-cell-components";
-import { TableCellProperties } from "./table-cell-properties";
+import { VerticalMergeType } from "./table-cell-components.js";
+import { TableCellProperties } from "./table-cell-properties.js";
 
 describe("TableCellProperties", () => {
     describe("#constructor", () => {

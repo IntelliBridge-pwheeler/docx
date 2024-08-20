@@ -1,5 +1,5 @@
-import { Attributes, XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { decimalNumber } from "@util/values";
+import { Attributes, XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { decimalNumber } from "@util/values.js";
 
 class AbstractNumId extends XmlComponent {
     public constructor(value: number) {

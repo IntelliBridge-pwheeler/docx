@@ -1,12 +1,12 @@
 // http://officeopenxml.com/drwPic.php
-import { IMediaData, IMediaDataTransformation } from "@file/media";
-import { XmlComponent } from "@file/xml-components";
+import { IMediaData, IMediaDataTransformation } from "@file/media/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { BlipFill } from "./blip/blip-fill";
-import { NonVisualPicProperties } from "./non-visual-pic-properties/non-visual-pic-properties";
-import { PicAttributes } from "./pic-attributes";
-import { ShapeProperties } from "./shape-properties/shape-properties";
-import { OutlineOptions } from "./shape-properties/outline/outline";
+import { BlipFill } from "./blip/blip-fill.js";
+import { NonVisualPicProperties } from "./non-visual-pic-properties/non-visual-pic-properties.js";
+import { PicAttributes } from "./pic-attributes.js";
+import { ShapeProperties } from "./shape-properties/shape-properties.js";
+import { OutlineOptions } from "./shape-properties/outline/outline.js";
 
 export class Pic extends XmlComponent {
     public constructor({

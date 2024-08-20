@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { DocumentWrapper } from "./document-wrapper";
+import { DocumentWrapper } from "./document-wrapper.js";
 
 describe("DocumentWrapper", () => {
     describe("#constructor", () => {

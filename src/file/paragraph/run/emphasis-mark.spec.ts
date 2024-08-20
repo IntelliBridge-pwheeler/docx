@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import * as em from "./emphasis-mark";
+import * as em from "./emphasis-mark.js";
 
 describe("EmphasisMark", () => {
     describe("#constructor()", () => {

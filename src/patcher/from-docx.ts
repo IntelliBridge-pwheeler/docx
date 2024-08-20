@@ -1,20 +1,20 @@
 import JSZip from "jszip";
 import { Element, js2xml } from "xml-js";
 
-import { ConcreteHyperlink, ExternalHyperlink, ParagraphChild } from "@file/paragraph";
-import { FileChild } from "@file/file-child";
-import { IMediaData, Media } from "@file/media";
-import { IViewWrapper } from "@file/document-wrapper";
-import { File } from "@file/file";
-import { IContext } from "@file/xml-components";
-import { ImageReplacer } from "@export/packer/image-replacer";
-import { TargetModeType } from "@file/relationships/relationship/relationship";
-import { uniqueId } from "@util/convenience-functions";
+import { ConcreteHyperlink, ExternalHyperlink, ParagraphChild } from "@file/paragraph/index.js";
+import { FileChild } from "@file/file-child.js";
+import { IMediaData, Media } from "@file/media/index.js";
+import { IViewWrapper } from "@file/document-wrapper.js";
+import { File } from "@file/file.js";
+import { IContext } from "@file/xml-components/index.js";
+import { ImageReplacer } from "@export/packer/image-replacer.js";
+import { TargetModeType } from "@file/relationships/relationship/relationship.js";
+import { uniqueId } from "@util/convenience-functions.js";
 
-import { replacer } from "./replacer";
-import { toJson } from "./util";
-import { appendRelationship, getNextRelationshipIndex } from "./relationship-manager";
-import { appendContentType } from "./content-types-manager";
+import { replacer } from "./replacer.js";
+import { toJson } from "./util.js";
+import { appendRelationship, getNextRelationshipIndex } from "./relationship-manager.js";
+import { appendContentType } from "./content-types-manager.js";
 
 // eslint-disable-next-line functional/prefer-readonly-type
 export type InputDataType = Buffer | string | number[] | Uint8Array | ArrayBuffer | Blob | NodeJS.ReadableStream;

@@ -1,4 +1,4 @@
-import { BuilderElement, createStringElement, OnOffElement, XmlComponent } from "@file/xml-components";
+import { BuilderElement, createStringElement, OnOffElement, XmlComponent } from "@file/xml-components/index.js";
 
 // <xsd:complexType name="CT_Font">
 //     <xsd:sequence>

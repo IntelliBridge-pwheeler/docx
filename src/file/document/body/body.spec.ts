@@ -1,9 +1,9 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Body } from "./body";
-import { sectionMarginDefaults } from "./section-properties";
+import { Body } from "./body.js";
+import { sectionMarginDefaults } from "./section-properties/index.js";
 
 describe("Body", () => {
     let body: Body;

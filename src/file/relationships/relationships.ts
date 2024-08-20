@@ -1,6 +1,6 @@
-import { XmlComponent } from "@file/xml-components";
-import { RelationshipsAttributes } from "./attributes";
-import { Relationship, RelationshipType, TargetModeType } from "./relationship/relationship";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { RelationshipsAttributes } from "./attributes.js";
+import { Relationship, RelationshipType, TargetModeType } from "./relationship/relationship.js";
 
 export class Relationships extends XmlComponent {
     public constructor() {

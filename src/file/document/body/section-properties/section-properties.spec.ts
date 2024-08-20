@@ -1,21 +1,21 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { FooterWrapper } from "@file/footer-wrapper";
-import { HeaderWrapper } from "@file/header-wrapper";
-import { Media } from "@file/media";
-import { NumberFormat } from "@file/shared/number-format";
-import { VerticalAlign } from "@file/vertical-align";
-import { convertInchesToTwip } from "@util/convenience-functions";
+import { Formatter } from "@export/formatter.js";
+import { FooterWrapper } from "@file/footer-wrapper.js";
+import { HeaderWrapper } from "@file/header-wrapper.js";
+import { Media } from "@file/media/index.js";
+import { NumberFormat } from "@file/shared/number-format.js";
+import { VerticalAlign } from "@file/vertical-align/index.js";
+import { convertInchesToTwip } from "@util/convenience-functions.js";
 
-import { PageOrientation } from "./properties";
-import { DocumentGridType } from "./properties/doc-grid";
-import { LineNumberRestartFormat } from "./properties/line-number";
-import { PageBorderOffsetFrom } from "./properties/page-borders";
-import { PageTextDirectionType } from "./properties/page-text-direction";
-import { SectionType } from "./properties/section-type";
-import { sectionMarginDefaults, sectionPageSizeDefaults, SectionProperties } from "./section-properties";
+import { PageOrientation } from "./properties/index.js";
+import { DocumentGridType } from "./properties/doc-grid.js";
+import { LineNumberRestartFormat } from "./properties/line-number.js";
+import { PageBorderOffsetFrom } from "./properties/page-borders.js";
+import { PageTextDirectionType } from "./properties/page-text-direction.js";
+import { SectionType } from "./properties/section-type.js";
+import { sectionMarginDefaults, sectionPageSizeDefaults, SectionProperties } from "./section-properties.js";
 
 const DEFAULT_MARGINS = {
     "w:bottom": sectionMarginDefaults.BOTTOM,

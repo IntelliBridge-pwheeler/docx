@@ -1,5 +1,5 @@
-import { OnOffElement, StringValueElement, XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { Name, UiPriority } from "./components";
+import { OnOffElement, StringValueElement, XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { Name, UiPriority } from "./components.js";
 
 // <xsd:complexType name="CT_Style">
 //     <xsd:sequence>

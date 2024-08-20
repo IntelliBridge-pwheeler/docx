@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { EMPTY_OBJECT } from "@file/xml-components";
-import { Formatter } from "@export/formatter";
+import { EMPTY_OBJECT } from "@file/xml-components/index.js";
+import { Formatter } from "@export/formatter.js";
 
-import { GridCol, TableGrid } from "./grid";
+import { GridCol, TableGrid } from "./grid.js";
 
 describe("GridCol", () => {
     describe("#constructor", () => {

@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { HeightRule } from "@file/table/table-row/table-row-height";
+import { Formatter } from "@export/formatter.js";
+import { HeightRule } from "@file/table/table-row/table-row-height.js";
 
-import { TableRowProperties } from "./table-row-properties";
+import { TableRowProperties } from "./table-row-properties.js";
 
 describe("TableRowProperties", () => {
     describe("#constructor", () => {

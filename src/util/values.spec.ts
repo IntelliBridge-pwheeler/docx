@@ -13,7 +13,7 @@ import {
     twipsMeasureValue,
     universalMeasureValue,
     unsignedDecimalNumber,
-} from "./values";
+} from "./values.js";
 
 describe("values", () => {
     describe("universalMeasureValue", () => {

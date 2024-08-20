@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { EMPTY_OBJECT } from "@file/xml-components";
+import { Formatter } from "@export/formatter.js";
+import { EMPTY_OBJECT } from "@file/xml-components/index.js";
 
-import * as defaultStyles from "./default-styles";
+import * as defaultStyles from "./default-styles.js";
 
 describe("Default Styles", () => {
     it("HeadingStyle#constructor", () => {

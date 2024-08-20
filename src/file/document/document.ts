@@ -1,11 +1,11 @@
 // http://officeopenxml.com/WPdocument.php
-import { XmlComponent } from "@file/xml-components";
-import { ConcreteHyperlink, Paragraph } from "../paragraph";
-import { Table } from "../table";
-import { TableOfContents } from "../table-of-contents";
-import { Body } from "./body";
-import { DocumentAttributes } from "./document-attributes";
-import { DocumentBackground, IDocumentBackgroundOptions } from "./document-background";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { ConcreteHyperlink, Paragraph } from "../paragraph/index.js";
+import { Table } from "../table/index.js";
+import { TableOfContents } from "../table-of-contents/index.js";
+import { Body } from "./body/index.js";
+import { DocumentAttributes } from "./document-attributes.js";
+import { DocumentBackground, IDocumentBackgroundOptions } from "./document-background/index.js";
 
 export interface IDocumentOptions {
     readonly background?: IDocumentBackgroundOptions;

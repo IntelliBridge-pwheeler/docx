@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { createInline } from "./inline";
+import { Formatter } from "@export/formatter.js";
+import { createInline } from "./inline.js";
 
 describe("Inline", () => {
     it("should create with default effect extent", () => {

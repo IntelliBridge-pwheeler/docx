@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { Attributes, BaseXmlComponent, XmlComponent } from "./";
+import { Formatter } from "@export/formatter.js";
+import { Attributes, BaseXmlComponent, XmlComponent } from "./index.js";
 
 class TestComponent extends XmlComponent {
     public push(el: BaseXmlComponent): void {

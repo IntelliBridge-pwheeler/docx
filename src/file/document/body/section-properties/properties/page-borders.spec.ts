@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { BorderStyle } from "@file/border";
+import { Formatter } from "@export/formatter.js";
+import { BorderStyle } from "@file/border/index.js";
 
-import { PageBorderDisplay, PageBorders, PageBorderZOrder } from "./page-borders";
+import { PageBorderDisplay, PageBorders, PageBorderZOrder } from "./page-borders.js";
 
 describe("PageBorders", () => {
     describe("#constructor()", () => {

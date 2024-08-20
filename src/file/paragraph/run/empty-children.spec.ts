@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 import {
     AnnotationReference,
     CarriageReturn,
@@ -19,7 +19,7 @@ import {
     Tab,
     YearLong,
     YearShort,
-} from "./empty-children";
+} from "./empty-children.js";
 
 //         <xsd:element name="noBreakHyphen" type="CT_Empty"/>
 //         <xsd:element name="softHyphen" type="CT_Empty" minOccurs="0" />

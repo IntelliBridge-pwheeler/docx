@@ -1,9 +1,9 @@
-import { UnderlineType } from "@file/paragraph/run/underline";
+import { UnderlineType } from "@file/paragraph/run/underline.js";
 
-import { LineRuleType } from "@file/paragraph";
+import { LineRuleType } from "@file/paragraph/index.js";
 
-import { IBaseCharacterStyleOptions, StyleForCharacter } from "./character-style";
-import { IBaseParagraphStyleOptions, IParagraphStyleOptions, StyleForParagraph } from "./paragraph-style";
+import { IBaseCharacterStyleOptions, StyleForCharacter } from "./character-style.js";
+import { IBaseParagraphStyleOptions, IParagraphStyleOptions, StyleForParagraph } from "./paragraph-style.js";
 
 export class HeadingStyle extends StyleForParagraph {
     public constructor(options: IParagraphStyleOptions) {

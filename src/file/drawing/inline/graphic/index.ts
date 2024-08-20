@@ -1,1 +1,1 @@
-export * from "./graphic";
+export * from "./graphic.js";

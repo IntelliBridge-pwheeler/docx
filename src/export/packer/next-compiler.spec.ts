@@ -1,11 +1,11 @@
 import { afterAll, beforeAll, beforeEach, describe, expect, it, vi } from "vitest";
 
-import { File } from "@file/file";
-import { Footer, Header } from "@file/header";
-import { ImageRun, Paragraph } from "@file/paragraph";
-import * as convenienceFunctions from "@util/convenience-functions";
+import { File } from "@file/file.js";
+import { Footer, Header } from "@file/header.js";
+import { ImageRun, Paragraph } from "@file/paragraph/index.js";
+import * as convenienceFunctions from "@util/convenience-functions.js";
 
-import { Compiler } from "./next-compiler";
+import { Compiler } from "./next-compiler.js";
 
 describe("Compiler", () => {
     let compiler: Compiler;

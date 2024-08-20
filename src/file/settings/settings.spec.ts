@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Settings } from "./settings";
+import { Settings } from "./settings.js";
 
 describe("Settings", () => {
     describe("#constructor", () => {

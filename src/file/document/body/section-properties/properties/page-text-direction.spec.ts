@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { PageTextDirection, PageTextDirectionType } from "./page-text-direction";
+import { Formatter } from "@export/formatter.js";
+import { PageTextDirection, PageTextDirectionType } from "./page-text-direction.js";
 
 describe("PageTextDirection", () => {
     describe("#constructor()", () => {

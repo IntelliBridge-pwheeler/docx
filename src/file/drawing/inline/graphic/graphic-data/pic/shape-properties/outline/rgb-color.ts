@@ -1,4 +1,4 @@
-import { BuilderElement, XmlComponent } from "@file/xml-components";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
 
 type SolidRgbColorOptions = {
     readonly value: string;

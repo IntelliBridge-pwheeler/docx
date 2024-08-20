@@ -4,8 +4,8 @@
 //    <xsd:attribute name="val" type="w:ST_ShortHexNumber"/>
 // </xsd:complexType>
 
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { shortHexNumber } from "@util/values";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { shortHexNumber } from "@util/values.js";
 
 class CheckboxSymbolAttributes extends XmlAttributeComponent<{
     readonly val?: string | number | boolean;

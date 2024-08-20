@@ -1,7 +1,7 @@
 import { Element } from "xml-js";
 
-import { RelationshipType, TargetModeType } from "@file/relationships/relationship/relationship";
-import { getFirstLevelElements } from "./util";
+import { RelationshipType, TargetModeType } from "@file/relationships/relationship/relationship.js";
+import { getFirstLevelElements } from "./util.js";
 
 const getIdFromRelationshipId = (relationshipId: string): number => {
     const output = parseInt(relationshipId.substring(3), 10);

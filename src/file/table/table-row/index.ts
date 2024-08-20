@@ -1,3 +1,3 @@
-export * from "./table-row";
-export * from "./table-row-properties";
-export * from "./table-row-height";
+export * from "./table-row.js";
+export * from "./table-row-properties.js";
+export * from "./table-row-height.js";

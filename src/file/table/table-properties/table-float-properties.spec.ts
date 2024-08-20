@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
 import {
     OverlapType,
@@ -8,7 +8,7 @@ import {
     RelativeVerticalPosition,
     TableAnchorType,
     TableFloatProperties,
-} from "./table-float-properties";
+} from "./table-float-properties.js";
 
 describe("Table Float Properties", () => {
     describe("#constructor", () => {

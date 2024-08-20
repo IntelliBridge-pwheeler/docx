@@ -1,5 +1,5 @@
-import { XmlComponent } from "@file/xml-components";
-import { CustomPropertyAttributes } from "./custom-property-attributes";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { CustomPropertyAttributes } from "./custom-property-attributes.js";
 
 export interface ICustomPropertyOptions {
     readonly name: string;

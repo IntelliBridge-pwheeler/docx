@@ -1,8 +1,8 @@
-import { Paragraph } from "@file/paragraph";
-import { XmlComponent } from "@file/xml-components";
+import { Paragraph } from "@file/paragraph/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { FootnoteAttributes } from "./footnote-attributes";
-import { FootnoteRefRun } from "./run/footnote-ref-run";
+import { FootnoteAttributes } from "./footnote-attributes.js";
+import { FootnoteRefRun } from "./run/footnote-ref-run.js";
 
 export const FootnoteType = {
     SEPERATOR: "separator",

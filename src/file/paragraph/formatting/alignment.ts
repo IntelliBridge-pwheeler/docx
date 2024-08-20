@@ -1,7 +1,7 @@
 // http://officeopenxml.com/WPalignment.php
 // http://officeopenxml.com/WPtableAlignment.php
 // http://www.datypic.com/sc/ooxml/t-w_ST_Jc.html
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
 // <xsd:simpleType name="ST_Jc">
 //     <xsd:restriction base="xsd:string">

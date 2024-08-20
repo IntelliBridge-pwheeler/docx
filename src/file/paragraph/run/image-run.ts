@@ -1,13 +1,13 @@
-import { uniqueId } from "@util/convenience-functions";
+import { uniqueId } from "@util/convenience-functions.js";
 
-import { IContext, IXmlableObject } from "@file/xml-components";
-import { DocPropertiesOptions } from "@file/drawing/doc-properties/doc-properties";
+import { IContext, IXmlableObject } from "@file/xml-components/index.js";
+import { DocPropertiesOptions } from "@file/drawing/doc-properties/doc-properties.js";
 
-import { OutlineOptions } from "../../drawing/inline/graphic/graphic-data/pic/shape-properties/outline/outline";
-import { Drawing, IFloating } from "../../drawing";
-import { IMediaTransformation } from "../../media";
-import { IMediaData } from "../../media/data";
-import { Run } from "../run";
+import { OutlineOptions } from "../../drawing/inline/graphic/graphic-data/pic/shape-properties/outline/outline.js";
+import { Drawing, IFloating } from "../../drawing/index.js";
+import { IMediaTransformation } from "../../media/index.js";
+import { IMediaData } from "../../media/data.js";
+import { Run } from "../run/index.js";
 
 type CoreImageOptions = {
     readonly transformation: IMediaTransformation;

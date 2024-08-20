@@ -1,6 +1,6 @@
-import { BorderElement, IBorderOptions } from "@file/border";
-import { IgnoreIfEmptyXmlComponent, XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { decimalNumber } from "@util/values";
+import { BorderElement, IBorderOptions } from "@file/border/index.js";
+import { IgnoreIfEmptyXmlComponent, XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { decimalNumber } from "@util/values.js";
 
 // <xsd:complexType name="CT_TcBorders">
 // <xsd:sequence>

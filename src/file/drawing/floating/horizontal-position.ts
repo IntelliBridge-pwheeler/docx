@@ -1,8 +1,8 @@
 // http://officeopenxml.com/drwPicFloating-position.php
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { Align } from "./align";
-import { HorizontalPositionRelativeFrom, IHorizontalPositionOptions } from "./floating-position";
-import { PositionOffset } from "./position-offset";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { Align } from "./align.js";
+import { HorizontalPositionRelativeFrom, IHorizontalPositionOptions } from "./floating-position.js";
+import { PositionOffset } from "./position-offset.js";
 
 class HorizontalPositionAttributes extends XmlAttributeComponent<{
     readonly relativeFrom: (typeof HorizontalPositionRelativeFrom)[keyof typeof HorizontalPositionRelativeFrom];

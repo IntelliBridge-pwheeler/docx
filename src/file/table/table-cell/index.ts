@@ -1,2 +1,2 @@
-export * from "./table-cell";
-export * from "./table-cell-components";
+export * from "./table-cell.js";
+export * from "./table-cell-components.js";

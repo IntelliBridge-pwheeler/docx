@@ -1,1 +1,1 @@
-export * from "./document-background";
+export * from "./document-background.js";

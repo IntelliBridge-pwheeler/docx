@@ -1,7 +1,7 @@
 // http://officeopenxml.com/drwSp-prstGeom.php
-import { XmlComponent } from "@file/xml-components";
-import { AdjustmentValues } from "./adjustment-values/adjustment-values";
-import { PresetGeometryAttributes } from "./preset-geometry-attributes";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { AdjustmentValues } from "./adjustment-values/adjustment-values.js";
+import { PresetGeometryAttributes } from "./preset-geometry-attributes.js";
 
 export class PresetGeometry extends XmlComponent {
     public constructor() {

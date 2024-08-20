@@ -1,13 +1,13 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { AlignmentType, EmphasisMarkType, TabStopPosition } from "../paragraph";
-import { UnderlineType } from "../paragraph/run/underline";
-import { HighlightColor } from "../paragraph/run/properties";
-import { ShadingType } from "../shading";
-import { AbstractNumbering } from "./abstract-numbering";
-import { LevelFormat, LevelSuffix } from "./level";
+import { AlignmentType, EmphasisMarkType, TabStopPosition } from "../paragraph/index.js";
+import { UnderlineType } from "../paragraph/run/underline.js";
+import { HighlightColor } from "../paragraph/run/properties.js";
+import { ShadingType } from "../shading/index.js";
+import { AbstractNumbering } from "./abstract-numbering.js";
+import { LevelFormat, LevelSuffix } from "./level.js";
 
 describe("AbstractNumbering", () => {
     it("stores its ID at its .id property", () => {

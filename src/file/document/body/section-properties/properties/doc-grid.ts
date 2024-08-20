@@ -1,5 +1,5 @@
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { decimalNumber } from "@util/values";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { decimalNumber } from "@util/values.js";
 
 // not implemented
 // <xsd:simpleType name="ST_DocGrid">

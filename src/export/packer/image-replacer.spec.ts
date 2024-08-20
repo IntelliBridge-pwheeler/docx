@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Media } from "@file/media";
+import { Media } from "@file/media/index.js";
 
-import { ImageReplacer } from "./image-replacer";
+import { ImageReplacer } from "./image-replacer.js";
 
 describe("ImageReplacer", () => {
     describe("#replace()", () => {

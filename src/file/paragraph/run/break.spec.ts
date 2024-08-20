@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Break } from "./break";
+import { Break } from "./break.js";
 
 describe("Break", () => {
     let currentBreak: Break;

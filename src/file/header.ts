@@ -1,5 +1,5 @@
-import { Paragraph } from "./paragraph";
-import { Table } from "./table";
+import { Paragraph } from "./paragraph/index.js";
+import { Table } from "./table/index.js";
 
 export interface IHeaderOptions {
     readonly children: readonly (Paragraph | Table)[];

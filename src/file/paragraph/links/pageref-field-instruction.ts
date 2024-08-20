@@ -1,8 +1,8 @@
-import { SpaceType } from "@file/shared";
-import { XmlComponent } from "@file/xml-components";
+import { SpaceType } from "@file/shared/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { TextAttributes } from "../run/text-attributes";
-import { IPageReferenceOptions } from "./pageref";
+import { TextAttributes } from "../run/text-attributes.js";
+import { IPageReferenceOptions } from "./pageref.js";
 
 export class PageReferenceFieldInstruction extends XmlComponent {
     public constructor(bookmarkId: string, options: IPageReferenceOptions = {}) {

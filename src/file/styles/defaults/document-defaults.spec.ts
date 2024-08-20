@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { DocumentDefaults } from "./document-defaults";
+import { DocumentDefaults } from "./document-defaults.js";
 
 describe("DocumentDefaults", () => {
     it("#constructor", () => {

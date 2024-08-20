@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { sectionMarginDefaults, sectionPageSizeDefaults } from "./document";
-import { File } from "./file";
-import { Footer, Header } from "./header";
-import { Paragraph } from "./paragraph";
+import { sectionMarginDefaults, sectionPageSizeDefaults } from "./document/index.js";
+import { File } from "./file.js";
+import { Footer, Header } from "./header.js";
+import { Paragraph } from "./paragraph/index.js";
 
 const PAGE_SIZE_DEFAULTS = {
     "w:h": sectionPageSizeDefaults.HEIGHT,

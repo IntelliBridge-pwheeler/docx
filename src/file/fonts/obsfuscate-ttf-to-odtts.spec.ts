@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { obfuscate } from "./obfuscate-ttf-to-odttf";
+import { obfuscate } from "./obfuscate-ttf-to-odttf.js";
 
 describe("obfuscate", () => {
     it("should work", () => {

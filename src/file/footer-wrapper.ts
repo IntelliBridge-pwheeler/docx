@@ -1,12 +1,12 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { HeaderFooterReferenceType } from "./document";
-import { IViewWrapper } from "./document-wrapper";
-import { Footer } from "./footer/footer";
-import { Media } from "./media";
-import { Paragraph } from "./paragraph";
-import { Relationships } from "./relationships";
-import { Table } from "./table";
+import { HeaderFooterReferenceType } from "./document/index.js";
+import { IViewWrapper } from "./document-wrapper.js";
+import { Footer } from "./footer/footer.js";
+import { Media } from "./media/index.js";
+import { Paragraph } from "./paragraph/index.js";
+import { Relationships } from "./relationships/index.js";
+import { Table } from "./table/index.js";
 
 export interface IDocumentFooter {
     readonly footer: FooterWrapper;

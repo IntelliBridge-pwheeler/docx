@@ -1,4 +1,4 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
 class FillRectangle extends XmlComponent {
     public constructor() {

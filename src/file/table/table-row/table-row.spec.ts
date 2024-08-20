@@ -1,12 +1,12 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Paragraph } from "@file/paragraph";
-import { HeightRule } from "@file/table/table-row/table-row-height";
-import { EMPTY_OBJECT } from "@file/xml-components";
-import { TableCell } from "../table-cell";
-import { TableRow } from "./table-row";
+import { Paragraph } from "@file/paragraph/index.js";
+import { HeightRule } from "@file/table/table-row/table-row-height.js";
+import { EMPTY_OBJECT } from "@file/xml-components/index.js";
+import { TableCell } from "../table-cell/index.js";
+import { TableRow } from "./table-row.js";
 
 describe("TableRow", () => {
     describe("#constructor", () => {

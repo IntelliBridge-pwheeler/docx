@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Shading, ShadingType } from "./shading";
+import { Shading, ShadingType } from "./shading.js";
 
 describe("Shading", () => {
     describe("#constructor", () => {

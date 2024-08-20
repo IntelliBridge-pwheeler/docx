@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared";
+import { Formatter } from "@export/formatter.js";
+import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared/index.js";
 
-import { FrameAnchorType, createFrameProperties } from "./frame-properties";
+import { FrameAnchorType, createFrameProperties } from "./frame-properties.js";
 
 describe("createFrameProperties", () => {
     it("should create", () => {

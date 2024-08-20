@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { CustomProperties } from "./custom-properties";
+import { CustomProperties } from "./custom-properties.js";
 
 describe("CustomProperties", () => {
     describe("#constructor()", () => {

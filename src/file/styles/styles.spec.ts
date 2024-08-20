@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { EMPTY_OBJECT } from "@file/xml-components";
+import { Formatter } from "@export/formatter.js";
+import { EMPTY_OBJECT } from "@file/xml-components/index.js";
 
-import { Styles } from "./styles";
+import { Styles } from "./styles.js";
 
 describe("Styles", () => {
     describe("#createParagraphStyle", () => {

@@ -1,10 +1,10 @@
 // http://www.datypic.com/sc/ooxml/e-m_naryPr-1.html
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { MathAccentCharacter } from "./math-accent-character";
-import { MathLimitLocation } from "./math-limit-location";
-import { MathSubScriptHide } from "./math-sub-script-hide";
-import { MathSuperScriptHide } from "./math-super-script-hide";
+import { MathAccentCharacter } from "./math-accent-character.js";
+import { MathLimitLocation } from "./math-limit-location.js";
+import { MathSubScriptHide } from "./math-sub-script-hide.js";
+import { MathSuperScriptHide } from "./math-super-script-hide.js";
 
 export class MathNAryProperties extends XmlComponent {
     public constructor(accent: string, hasSuperScript: boolean, hasSubScript: boolean, limitLocationVal?: string) {

@@ -1,5 +1,5 @@
-import { XmlComponent } from "@file/xml-components";
-import { PicLocksAttributes } from "./pic-locks-attributes";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { PicLocksAttributes } from "./pic-locks-attributes.js";
 
 export class PicLocks extends XmlComponent {
     public constructor() {

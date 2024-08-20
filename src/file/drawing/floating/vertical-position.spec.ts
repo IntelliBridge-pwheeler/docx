@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { VerticalPositionAlign } from "@file/shared/alignment";
+import { Formatter } from "@export/formatter.js";
+import { VerticalPositionAlign } from "@file/shared/alignment.js";
 
-import { VerticalPositionRelativeFrom } from "./floating-position";
-import { VerticalPosition } from "./vertical-position";
+import { VerticalPositionRelativeFrom } from "./floating-position.js";
+import { VerticalPosition } from "./vertical-position.js";
 
 describe("VerticalPosition", () => {
     describe("#constructor()", () => {

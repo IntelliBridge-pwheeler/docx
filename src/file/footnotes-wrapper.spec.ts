@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { FootnotesWrapper } from "./footnotes-wrapper";
+import { FootnotesWrapper } from "./footnotes-wrapper.js";
 
 describe("FootnotesWrapper", () => {
     describe("#constructor", () => {

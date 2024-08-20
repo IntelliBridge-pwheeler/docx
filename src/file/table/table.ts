@@ -1,14 +1,14 @@
 // http://officeopenxml.com/WPtableGrid.php
-import { FileChild } from "@file/file-child";
+import { FileChild } from "@file/file-child.js";
 
-import { AlignmentType } from "../paragraph";
-import { TableGrid } from "./grid";
-import { TableCell, VerticalMergeType } from "./table-cell";
-import { ITableBordersOptions, ITableFloatOptions, TableProperties } from "./table-properties";
-import { ITableCellMarginOptions } from "./table-properties/table-cell-margin";
-import { TableLayoutType } from "./table-properties/table-layout";
-import { TableRow } from "./table-row";
-import { ITableWidthProperties } from "./table-width";
+import { AlignmentType } from "../paragraph/index.js";
+import { TableGrid } from "./grid.js";
+import { TableCell, VerticalMergeType } from "./table-cell/index.js";
+import { ITableBordersOptions, ITableFloatOptions, TableProperties } from "./table-properties/index.js";
+import { ITableCellMarginOptions } from "./table-properties/table-cell-margin.js";
+import { TableLayoutType } from "./table-properties/table-layout.js";
+import { TableRow } from "./table-row/index.js";
+import { ITableWidthProperties } from "./table-width.js";
 
 /*
     0-width columns don't get rendered correctly, so we need

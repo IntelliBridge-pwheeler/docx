@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathRun } from "../math-run";
-import { MathSum } from "./math-sum";
+import { MathRun } from "../math-run.js";
+import { MathSum } from "./math-sum.js";
 
 describe("MathSum", () => {
     describe("#constructor()", () => {

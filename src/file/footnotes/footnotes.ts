@@ -1,10 +1,10 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { LineRuleType, Paragraph } from "../paragraph";
-import { Footnote, FootnoteType } from "./footnote/footnote";
-import { ContinuationSeperatorRun } from "./footnote/run/continuation-seperator-run";
-import { SeperatorRun } from "./footnote/run/seperator-run";
-import { FootnotesAttributes } from "./footnotes-attributes";
+import { LineRuleType, Paragraph } from "../paragraph/index.js";
+import { Footnote, FootnoteType } from "./footnote/footnote.js";
+import { ContinuationSeperatorRun } from "./footnote/run/continuation-seperator-run.js";
+import { SeperatorRun } from "./footnote/run/seperator-run.js";
+import { FootnotesAttributes } from "./footnotes-attributes.js";
 
 export class FootNotes extends XmlComponent {
     public constructor() {

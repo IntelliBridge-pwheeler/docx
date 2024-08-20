@@ -1,13 +1,13 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { BorderStyle } from "@file/border";
-import { ShadingType } from "@file/shading";
-import { VerticalAlign } from "@file/vertical-align";
+import { Formatter } from "@export/formatter.js";
+import { BorderStyle } from "@file/border/index.js";
+import { ShadingType } from "@file/shading/index.js";
+import { VerticalAlign } from "@file/vertical-align/index.js";
 
-import { WidthType } from "../table-width";
-import { TableCell } from "./table-cell";
-import { TableCellBorders, TextDirection, VerticalMergeType } from "./table-cell-components";
+import { WidthType } from "../table-width.js";
+import { TableCell } from "./table-cell.js";
+import { TableCellBorders, TextDirection, VerticalMergeType } from "./table-cell-components.js";
 
 describe("TableCellBorders", () => {
     describe("#prepForXml", () => {

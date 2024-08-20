@@ -1,6 +1,6 @@
-import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components";
-import { CustomPropertiesAttributes } from "./custom-properties-attributes";
-import { CustomProperty, ICustomPropertyOptions } from "./custom-property";
+import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components/index.js";
+import { CustomPropertiesAttributes } from "./custom-properties-attributes.js";
+import { CustomProperty, ICustomPropertyOptions } from "./custom-property.js";
 
 export class CustomProperties extends XmlComponent {
     // eslint-disable-next-line functional/prefer-readonly-type

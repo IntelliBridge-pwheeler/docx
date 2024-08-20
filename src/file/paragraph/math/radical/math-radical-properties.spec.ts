@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathRadicalProperties } from "./math-radical-properties";
+import { MathRadicalProperties } from "./math-radical-properties.js";
 
 describe("MathRadicalProperties", () => {
     describe("#constructor()", () => {

@@ -1,4 +1,4 @@
-import { BaseXmlComponent, IContext, IXmlableObject } from "@file/xml-components";
+import { BaseXmlComponent, IContext, IXmlableObject } from "@file/xml-components/index.js";
 
 export class Formatter {
     // tslint:disable-next-line: no-object-literal-type-assertion

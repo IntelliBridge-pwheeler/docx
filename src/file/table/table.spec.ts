@@ -2,16 +2,16 @@
 /* tslint:disable:no-unused-expression */
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { AlignmentType, Paragraph } from "../paragraph";
-import { Table } from "./table";
-import { RelativeHorizontalPosition, RelativeVerticalPosition, TableAnchorType } from "./table-properties";
+import { AlignmentType, Paragraph } from "../paragraph/index.js";
+import { Table } from "./table.js";
+import { RelativeHorizontalPosition, RelativeVerticalPosition, TableAnchorType } from "./table-properties/index.js";
 
-import { TableCell } from "./table-cell";
-import { TableLayoutType } from "./table-properties/table-layout";
-import { TableRow } from "./table-row";
-import { WidthType } from "./table-width";
+import { TableCell } from "./table-cell/index.js";
+import { TableLayoutType } from "./table-properties/table-layout.js";
+import { TableRow } from "./table-row/index.js";
+import { WidthType } from "./table-width.js";
 
 const BORDERS = {
     "w:tblBorders": [

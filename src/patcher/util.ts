@@ -1,8 +1,8 @@
 import { xml2js, Element } from "xml-js";
 import xml from "xml";
 
-import { Formatter } from "@export/formatter";
-import { Text } from "@file/paragraph/run/run-components/text";
+import { Formatter } from "@export/formatter.js";
+import { Text } from "@file/paragraph/run/run-components/text.js";
 
 const formatter = new Formatter();
 

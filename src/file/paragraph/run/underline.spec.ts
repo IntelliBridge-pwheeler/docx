@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Underline, UnderlineType } from "./underline";
+import { Underline, UnderlineType } from "./underline.js";
 
 describe("Underline", () => {
     describe("#constructor()", () => {

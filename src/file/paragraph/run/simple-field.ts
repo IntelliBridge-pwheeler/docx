@@ -1,6 +1,6 @@
 // http://www.datypic.com/sc/ooxml/e-w_fldSimple-1.html
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { TextRun } from "./text-run";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { TextRun } from "./text-run.js";
 
 class FldSimpleAttrs extends XmlAttributeComponent<{ readonly instr: string }> {
     protected readonly xmlKeys = { instr: "w:instr" };

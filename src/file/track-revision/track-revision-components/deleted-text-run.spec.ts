@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { FootnoteReferenceRun } from "@file/footnotes";
-import { PageNumber } from "@file/paragraph";
+import { Formatter } from "@export/formatter.js";
+import { FootnoteReferenceRun } from "@file/footnotes/index.js";
+import { PageNumber } from "@file/paragraph/index.js";
 
-import { DeletedTextRun } from "./deleted-text-run";
+import { DeletedTextRun } from "./deleted-text-run.js";
 
 describe("DeletedTextRun", () => {
     describe("#constructor", () => {

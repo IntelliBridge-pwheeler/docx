@@ -1,5 +1,5 @@
-import { XmlComponent } from "@file/xml-components";
-import { AppPropertiesAttributes } from "./app-properties-attributes";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { AppPropertiesAttributes } from "./app-properties-attributes.js";
 
 export class AppProperties extends XmlComponent {
     public constructor() {

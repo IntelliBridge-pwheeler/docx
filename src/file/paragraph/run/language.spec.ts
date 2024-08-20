@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { createLanguageComponent } from "./language";
+import { createLanguageComponent } from "./language.js";
 
 describe("Language", () => {
     describe("#createLanguageComponent", () => {

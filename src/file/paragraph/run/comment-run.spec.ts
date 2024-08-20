@@ -1,9 +1,9 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Paragraph } from "../paragraph";
-import { Comment, CommentRangeEnd, CommentRangeStart, CommentReference, Comments } from "./comment-run";
+import { Paragraph } from "../paragraph.js";
+import { Comment, CommentRangeEnd, CommentRangeStart, CommentReference, Comments } from "./comment-run.js";
 
 describe("CommentRangeStart", () => {
     describe("#constructor()", () => {

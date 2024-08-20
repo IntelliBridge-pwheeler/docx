@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Paragraph } from "../paragraph";
-import { Header } from "./header";
+import { Paragraph } from "../paragraph/index.js";
+import { Header } from "./header.js";
 
 describe("Header", () => {
     it("should create", () => {

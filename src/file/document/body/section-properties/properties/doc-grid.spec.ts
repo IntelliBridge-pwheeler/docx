@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { DocumentGrid, DocumentGridType } from ".";
+import { DocumentGrid, DocumentGridType } from "./index.js";
 
 describe("DocumentGrid", () => {
     describe("#constructor()", () => {

@@ -1,6 +1,6 @@
-import { convertToXmlComponent, ImportedRootElementAttributes, ImportedXmlComponent } from "@file/xml-components";
+import { convertToXmlComponent, ImportedRootElementAttributes, ImportedXmlComponent } from "@file/xml-components/index.js";
 import { Element as XMLElement, xml2js } from "xml-js";
-import { Styles } from "./";
+import { Styles } from "./index.js";
 
 export class ExternalStylesFactory {
     /**

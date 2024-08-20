@@ -1,6 +1,6 @@
 // http://officeopenxml.com/drwSp-size.php
-import { XmlComponent } from "@file/xml-components";
-import { ExtentsAttributes } from "./extents-attributes";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { ExtentsAttributes } from "./extents-attributes.js";
 
 export class Extents extends XmlComponent {
     private readonly attributes: ExtentsAttributes;

@@ -1,9 +1,9 @@
-import { IViewWrapper } from "@file/document-wrapper";
-import { Relationships } from "@file/relationships";
-import { XmlComponent } from "@file/xml-components";
-import { uniqueUuid } from "@util/convenience-functions";
+import { IViewWrapper } from "@file/document-wrapper.js";
+import { Relationships } from "@file/relationships/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { uniqueUuid } from "@util/convenience-functions.js";
 
-import { FontOptions, createFontTable } from "./font-table";
+import { FontOptions, createFontTable } from "./font-table.js";
 
 export type FontOptionsWithKey = FontOptions & { readonly fontKey: string };
 

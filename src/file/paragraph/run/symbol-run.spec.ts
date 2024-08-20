@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { EmphasisMarkType } from "./emphasis-mark";
-import { UnderlineType } from "./underline";
-import { SymbolRun } from "./symbol-run";
+import { EmphasisMarkType } from "./emphasis-mark.js";
+import { UnderlineType } from "./underline.js";
+import { SymbolRun } from "./symbol-run.js";
 
 describe("SymbolRun", () => {
     let run: SymbolRun;

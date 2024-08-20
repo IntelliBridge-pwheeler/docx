@@ -1,9 +1,9 @@
-import { XmlComponent } from "./xml-components";
-import { Document, IDocumentOptions } from "./document";
-import { Footer } from "./footer/footer";
-import { FootNotes } from "./footnotes";
-import { Header } from "./header/header";
-import { Relationships } from "./relationships";
+import { XmlComponent } from "./xml-components/index.js";
+import { Document, IDocumentOptions } from "./document/index.js";
+import { Footer } from "./footer/footer.js";
+import { FootNotes } from "./footnotes/index.js";
+import { Header } from "./header/header.js";
+import { Relationships } from "./relationships/index.js";
 
 export interface IViewWrapper {
     readonly View: Document | Footer | Header | FootNotes | XmlComponent;

@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathLimitLocation } from "./math-limit-location";
+import { MathLimitLocation } from "./math-limit-location.js";
 
 describe("MathLimitLocation", () => {
     describe("#constructor()", () => {

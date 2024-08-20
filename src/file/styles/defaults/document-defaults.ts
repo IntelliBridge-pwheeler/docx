@@ -1,8 +1,8 @@
-import { IParagraphStylePropertiesOptions } from "@file/paragraph/properties";
-import { IRunStylePropertiesOptions } from "@file/paragraph/run/properties";
-import { XmlComponent } from "@file/xml-components";
-import { ParagraphPropertiesDefaults } from "./paragraph-properties";
-import { RunPropertiesDefaults } from "./run-properties";
+import { IParagraphStylePropertiesOptions } from "@file/paragraph/properties.js";
+import { IRunStylePropertiesOptions } from "@file/paragraph/run/properties.js";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { ParagraphPropertiesDefaults } from "./paragraph-properties.js";
+import { RunPropertiesDefaults } from "./run-properties.js";
 
 export interface IDocumentDefaultsOptions {
     readonly paragraph?: IParagraphStylePropertiesOptions;

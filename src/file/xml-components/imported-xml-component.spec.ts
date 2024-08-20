@@ -1,10 +1,10 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { Element, xml2js } from "xml-js";
 
-import { EMPTY_OBJECT } from "@file/xml-components";
+import { EMPTY_OBJECT } from "@file/xml-components/index.js";
 
-import { convertToXmlComponent, ImportedRootElementAttributes, ImportedXmlComponent } from "./imported-xml-component";
-import { IContext } from "./base";
+import { convertToXmlComponent, ImportedRootElementAttributes, ImportedXmlComponent } from "./imported-xml-component.js";
+import { IContext } from "./base.js";
 
 const xmlString = `
         <w:p w:one="value 1" w:two="value 2">

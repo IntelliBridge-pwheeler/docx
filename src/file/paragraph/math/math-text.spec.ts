@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { MathText } from "./math-text";
+import { MathText } from "./math-text.js";
 
 describe("MathText", () => {
     describe("#constructor()", () => {

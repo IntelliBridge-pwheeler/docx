@@ -1,9 +1,9 @@
 import { assert, beforeEach, describe, expect, it, vi } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { CoreProperties } from "@file/core-properties";
-import { Paragraph, TextRun } from "@file/paragraph";
-import { Attributes } from "@file/xml-components";
+import { Formatter } from "@export/formatter.js";
+import { CoreProperties } from "@file/core-properties/index.js";
+import { Paragraph, TextRun } from "@file/paragraph/index.js";
+import { Attributes } from "@file/xml-components/index.js";
 
 describe("Formatter", () => {
     let formatter: Formatter;

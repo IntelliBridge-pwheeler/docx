@@ -1,2 +1,2 @@
-export * from "./body";
-export * from "./section-properties";
+export * from "./body.js";
+export * from "./section-properties/index.js";

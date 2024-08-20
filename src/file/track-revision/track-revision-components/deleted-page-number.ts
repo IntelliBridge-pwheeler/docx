@@ -1,6 +1,6 @@
-import { TextAttributes } from "@file/paragraph/run/text-attributes";
-import { SpaceType } from "@file/shared";
-import { XmlComponent } from "@file/xml-components";
+import { TextAttributes } from "@file/paragraph/run/text-attributes.js";
+import { SpaceType } from "@file/shared/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
 
 export class DeletedPage extends XmlComponent {
     public constructor() {

@@ -1,7 +1,7 @@
 // http://officeopenxml.com/WPparagraph-textFrames.php
-import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared/alignment";
-import { HeightRule } from "@file/table";
-import { BuilderElement, XmlComponent } from "@file/xml-components";
+import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared/alignment.js";
+import { HeightRule } from "@file/table/index.js";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
 
 export const DropCapType = {
     NONE: "none",

@@ -1,5 +1,5 @@
-import { IRunOptions, Run } from "./run";
-import { Text } from "./run-components/text";
+import { IRunOptions, Run } from "./run.js";
+import { Text } from "./run-components/text.js";
 
 export class TextRun extends Run {
     public constructor(options: IRunOptions | string) {

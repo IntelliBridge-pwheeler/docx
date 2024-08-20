@@ -1,6 +1,6 @@
-import { IRunStylePropertiesOptions, RunProperties } from "@file/paragraph/run/properties";
+import { IRunStylePropertiesOptions, RunProperties } from "@file/paragraph/run/properties.js";
 
-import { IStyleOptions, Style } from "./style";
+import { IStyleOptions, Style } from "./style.js";
 
 export interface IBaseCharacterStyleOptions extends IStyleOptions {
     readonly run?: IRunStylePropertiesOptions;

@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { ConcreteNumbering } from "./num";
+import { ConcreteNumbering } from "./num.js";
 
 describe("ConcreteNumbering", () => {
     describe("#overrideLevel", () => {

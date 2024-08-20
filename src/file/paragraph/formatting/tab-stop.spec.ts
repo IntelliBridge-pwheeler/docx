@@ -1,8 +1,8 @@
 import { assert, beforeEach, describe, it } from "vitest";
 
-import { Utility } from "tests/utility";
+import { Utility } from "tests/utility.js";
 
-import { LeaderType, TabStop, TabStopType } from "./tab-stop";
+import { LeaderType, TabStop, TabStopType } from "./tab-stop.js";
 
 describe("LeftTabStop", () => {
     let tabStop: TabStop;

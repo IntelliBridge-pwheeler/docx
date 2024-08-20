@@ -19,8 +19,8 @@
 //     <xsd:attribute name="shadow" type="s:ST_OnOff" use="optional"/>
 //     <xsd:attribute name="frame" type="s:ST_OnOff" use="optional"/>
 // </xsd:complexType>
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { eighthPointMeasureValue, hexColorValue, pointMeasureValue } from "@util/values";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { eighthPointMeasureValue, hexColorValue, pointMeasureValue } from "@util/values.js";
 
 export interface IBorderOptions {
     readonly style: (typeof BorderStyle)[keyof typeof BorderStyle];

@@ -1,7 +1,7 @@
-import { Paragraph, ParagraphProperties } from "@file/paragraph";
-import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components";
+import { Paragraph, ParagraphProperties } from "@file/paragraph/index.js";
+import { IContext, IXmlableObject, XmlComponent } from "@file/xml-components/index.js";
 
-import { ISectionPropertiesOptions, SectionProperties } from "./section-properties/section-properties";
+import { ISectionPropertiesOptions, SectionProperties } from "./section-properties/section-properties.js";
 
 export class Body extends XmlComponent {
     // eslint-disable-next-line functional/prefer-readonly-type

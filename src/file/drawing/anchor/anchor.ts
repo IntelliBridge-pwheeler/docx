@@ -1,15 +1,15 @@
 // http://officeopenxml.com/drwPicFloating.php
-import { IMediaData, IMediaDataTransformation } from "@file/media";
-import { XmlComponent } from "@file/xml-components";
-import { IDrawingOptions } from "../drawing";
-import { HorizontalPosition, IFloating, SimplePos, VerticalPosition } from "../floating";
-import { Graphic } from "../inline/graphic";
-import { TextWrappingType, WrapNone, WrapSquare, WrapTight, WrapTopAndBottom } from "../text-wrap";
-import { DocProperties } from "./../doc-properties/doc-properties";
-import { createEffectExtent } from "./../effect-extent/effect-extent";
-import { Extent } from "./../extent/extent";
-import { GraphicFrameProperties } from "./../graphic-frame/graphic-frame-properties";
-import { AnchorAttributes } from "./anchor-attributes";
+import { IMediaData, IMediaDataTransformation } from "@file/media/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { IDrawingOptions } from "../drawing.js";
+import { HorizontalPosition, IFloating, SimplePos, VerticalPosition } from "../floating/index.js";
+import { Graphic } from "../inline/graphic/index.js";
+import { TextWrappingType, WrapNone, WrapSquare, WrapTight, WrapTopAndBottom } from "../text-wrap/index.js";
+import { DocProperties } from "./../doc-properties/doc-properties.js";
+import { createEffectExtent } from "./../effect-extent/effect-extent.js";
+import { Extent } from "./../extent/extent.js";
+import { GraphicFrameProperties } from "./../graphic-frame/graphic-frame-properties.js";
+import { AnchorAttributes } from "./anchor-attributes.js";
 
 // <xsd:complexType name="CT_Anchor">
 //     <xsd:sequence>

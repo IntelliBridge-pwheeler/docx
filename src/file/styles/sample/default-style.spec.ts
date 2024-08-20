@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { DefaultStyle } from "./default-style";
+import { DefaultStyle } from "./default-style.js";
 
 describe("DefaultStyle", () => {
     it("creates an initially empty property object", () => {

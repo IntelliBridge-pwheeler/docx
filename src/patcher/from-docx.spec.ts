@@ -1,9 +1,9 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import JSZip from "jszip";
 
-import { ExternalHyperlink, ImageRun, Paragraph, TextRun } from "@file/paragraph";
+import { ExternalHyperlink, ImageRun, Paragraph, TextRun } from "@file/paragraph/index.js";
 
-import { patchDocument, PatchType } from "./from-docx";
+import { patchDocument, PatchType } from "./from-docx.js";
 
 const MOCK_XML = `
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>

@@ -10,7 +10,7 @@ import {
     uniqueId,
     uniqueNumericIdCreator,
     uniqueUuid,
-} from "./convenience-functions";
+} from "./convenience-functions.js";
 
 describe("Utility", () => {
     describe("#convertMillimetersToTwip", () => {

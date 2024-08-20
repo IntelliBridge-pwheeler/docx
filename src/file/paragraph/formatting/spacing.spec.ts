@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Spacing } from "./spacing";
+import { Spacing } from "./spacing.js";
 
 describe("Spacing", () => {
     describe("#constructor", () => {

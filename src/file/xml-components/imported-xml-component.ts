@@ -1,8 +1,8 @@
 import { Element as XmlElement, xml2js } from "xml-js";
 
-import { IXmlableObject, XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { IXmlableObject, XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
-import { IContext } from "./base";
+import { IContext } from "./base.js";
 
 /**
  * Converts the given xml element (in json format) into XmlComponent.

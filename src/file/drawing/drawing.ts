@@ -1,11 +1,11 @@
-import { IMediaData } from "@file/media";
-import { XmlComponent } from "@file/xml-components";
+import { IMediaData } from "@file/media/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { Anchor } from "./anchor";
-import { DocPropertiesOptions } from "./doc-properties/doc-properties";
-import { IFloating } from "./floating";
-import { createInline } from "./inline";
-import { OutlineOptions } from "./inline/graphic/graphic-data/pic/shape-properties/outline/outline";
+import { Anchor } from "./anchor/index.js";
+import { DocPropertiesOptions } from "./doc-properties/doc-properties.js";
+import { IFloating } from "./floating/index.js";
+import { createInline } from "./inline/index.js";
+import { OutlineOptions } from "./inline/graphic/graphic-data/pic/shape-properties/outline/outline.js";
 
 export type IDistance = {
     readonly distT?: number;

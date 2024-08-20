@@ -1,12 +1,12 @@
-import { IViewWrapper } from "@file/document-wrapper";
-import { File } from "@file/file";
-import { Paragraph, TextRun } from "@file/paragraph";
-import { IContext } from "@file/xml-components";
+import { IViewWrapper } from "@file/document-wrapper.js";
+import { File } from "@file/file.js";
+import { Paragraph, TextRun } from "@file/paragraph/index.js";
+import { IContext } from "@file/xml-components/index.js";
 import { describe, expect, it, vi } from "vitest";
 
-import { PatchType } from "./from-docx";
+import { PatchType } from "./from-docx.js";
 
-import { replacer } from "./replacer";
+import { replacer } from "./replacer.js";
 
 export const MOCK_JSON = {
     elements: [

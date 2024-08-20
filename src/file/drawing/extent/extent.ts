@@ -1,6 +1,6 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { ExtentAttributes } from "./extent-attributes";
+import { ExtentAttributes } from "./extent-attributes.js";
 
 export class Extent extends XmlComponent {
     private readonly attributes: ExtentAttributes;

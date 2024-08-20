@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { PageOrientation, PageSize } from "./page-size";
+import { PageOrientation, PageSize } from "./page-size.js";
 
 describe("PageSize", () => {
     describe("#constructor()", () => {

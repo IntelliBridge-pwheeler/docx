@@ -1,5 +1,5 @@
-import { BaseXmlComponent, IContext } from "./base";
-import { IXmlableObject } from "./xmlable-object";
+import { BaseXmlComponent, IContext } from "./base.js";
+import { IXmlableObject } from "./xmlable-object.js";
 
 export const EMPTY_OBJECT = Object.seal({});
 

@@ -4,7 +4,7 @@
 //         <element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOccurs="1" />
 //     </sequence>
 
-import { BuilderElement, XmlComponent } from "@file/xml-components";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
 
 // <xsd:complexType name="CT_Hyperlink">
 //     <xsd:group ref="EG_PContent" minOccurs="0" maxOccurs="unbounded" />

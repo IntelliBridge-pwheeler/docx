@@ -1,6 +1,6 @@
 // http://officeopenxml.com/drwPicFloating-position.php
-import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared/alignment";
-import { XmlComponent } from "@file/xml-components";
+import { HorizontalPositionAlign, VerticalPositionAlign } from "@file/shared/alignment.js";
+import { XmlComponent } from "@file/xml-components/index.js";
 
 export class Align extends XmlComponent {
     public constructor(

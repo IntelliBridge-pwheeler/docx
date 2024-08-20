@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { renderParagraphNode } from "./run-renderer";
+import { renderParagraphNode } from "./run-renderer.js";
 
 describe("run-renderer", () => {
     describe("renderParagraphNode", () => {

@@ -1,4 +1,4 @@
-import { XmlAttributeComponent } from "@file/xml-components";
+import { XmlAttributeComponent } from "@file/xml-components/index.js";
 
 export class CustomPropertiesAttributes extends XmlAttributeComponent<{
     readonly xmlns: string;

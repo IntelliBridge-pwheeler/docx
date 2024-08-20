@@ -1,6 +1,6 @@
 import { Element } from "xml-js";
 
-import { IRenderedParagraphNode, renderParagraphNode } from "./run-renderer";
+import { IRenderedParagraphNode, renderParagraphNode } from "./run-renderer.js";
 
 export interface ElementWrapper {
     readonly element: Element;

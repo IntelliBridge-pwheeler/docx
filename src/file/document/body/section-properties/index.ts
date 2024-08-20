@@ -1,2 +1,2 @@
-export * from "./section-properties";
-export * from "./properties";
+export * from "./section-properties.js";
+export * from "./properties/index.js";

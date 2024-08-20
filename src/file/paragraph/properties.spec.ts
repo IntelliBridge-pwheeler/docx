@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { DocumentWrapper } from "../document-wrapper";
-import { File } from "../file";
+import { Formatter } from "@export/formatter.js";
+import { DocumentWrapper } from "../document-wrapper.js";
+import { File } from "../file.js";
 
-import { ParagraphProperties } from "./properties";
+import { ParagraphProperties } from "./properties.js";
 
 describe("ParagraphProperties", () => {
     describe("#constructor()", () => {

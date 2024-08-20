@@ -1,11 +1,11 @@
 // http://officeopenxml.com/WPnumbering-numFmt.php
 // http://www.datypic.com/sc/ooxml/a-w_val-57.html
-import { Attributes, NumberValueElement, XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { decimalNumber } from "@util/values";
+import { Attributes, NumberValueElement, XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { decimalNumber } from "@util/values.js";
 
-import { AlignmentType } from "../paragraph/formatting";
-import { ILevelParagraphStylePropertiesOptions, ParagraphProperties } from "../paragraph/properties";
-import { IRunStylePropertiesOptions, RunProperties } from "../paragraph/run/properties";
+import { AlignmentType } from "../paragraph/formatting/index.js";
+import { ILevelParagraphStylePropertiesOptions, ParagraphProperties } from "../paragraph/properties.js";
+import { IRunStylePropertiesOptions, RunProperties } from "../paragraph/run/properties.js";
 
 // TODO: Breaking change - consolidate with number-format
 // <xsd:simpleType name="ST_NumberFormat">

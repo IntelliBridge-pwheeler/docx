@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { Paragraph, TextRun } from "@file/paragraph";
+import { Formatter } from "@export/formatter.js";
+import { Paragraph, TextRun } from "@file/paragraph/index.js";
 
-import { Footnote, FootnoteType } from "./footnote";
+import { Footnote, FootnoteType } from "./footnote.js";
 
 describe("Footnote", () => {
     describe("#constructor", () => {

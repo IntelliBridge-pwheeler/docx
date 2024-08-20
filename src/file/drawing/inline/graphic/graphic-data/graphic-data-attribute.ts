@@ -1,4 +1,4 @@
-import { XmlAttributeComponent } from "@file/xml-components";
+import { XmlAttributeComponent } from "@file/xml-components/index.js";
 
 export class GraphicDataAttributes extends XmlAttributeComponent<{
     readonly uri?: string;

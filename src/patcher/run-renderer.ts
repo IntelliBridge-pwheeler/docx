@@ -1,6 +1,6 @@
 import { Element } from "xml-js";
 
-import { ElementWrapper } from "./traverser";
+import { ElementWrapper } from "./traverser.js";
 
 export interface IRenderedParagraphNode {
     readonly text: string;

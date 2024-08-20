@@ -1,5 +1,5 @@
 // http://officeopenxml.com/WPtab.php
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
 export interface TabStopDefinition {
     readonly type: (typeof TabStopType)[keyof typeof TabStopType];

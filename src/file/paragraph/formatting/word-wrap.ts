@@ -1,6 +1,6 @@
 // http://officeopenxml.com/WPalignment.php
 // http://officeopenxml.com/WPtableAlignment.php
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
 export class WordWrapAttributes extends XmlAttributeComponent<{ readonly val: 0 }> {
     protected readonly xmlKeys = { val: "w:val" };

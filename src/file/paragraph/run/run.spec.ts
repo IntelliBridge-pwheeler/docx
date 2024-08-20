@@ -1,13 +1,13 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { BorderStyle } from "@file/border";
-import { ShadingType } from "@file/shading";
+import { Formatter } from "@export/formatter.js";
+import { BorderStyle } from "@file/border/index.js";
+import { ShadingType } from "@file/shading/index.js";
 
-import { EmphasisMarkType } from "./emphasis-mark";
-import { PageNumber, Run } from "./run";
-import { UnderlineType } from "./underline";
-import { HighlightColor, TextEffect } from "./properties";
+import { EmphasisMarkType } from "./emphasis-mark.js";
+import { PageNumber, Run } from "./run.js";
+import { UnderlineType } from "./underline.js";
+import { HighlightColor, TextEffect } from "./properties.js";
 describe("Run", () => {
     describe("#noProof()", () => {
         it("turns off spelling and grammar checkers for a run", () => {

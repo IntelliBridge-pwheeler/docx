@@ -1,7 +1,7 @@
 // http://officeopenxml.com/WPSectionPgNumType.php
-import { NumberFormat } from "@file/shared/number-format";
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { decimalNumber } from "@util/values";
+import { NumberFormat } from "@file/shared/number-format.js";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { decimalNumber } from "@util/values.js";
 
 // <xsd:simpleType name="ST_ChapterSep">
 // <xsd:restriction base="xsd:string">

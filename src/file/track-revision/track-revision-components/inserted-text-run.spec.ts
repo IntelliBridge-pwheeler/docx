@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { InsertedTextRun } from "./inserted-text-run";
+import { InsertedTextRun } from "./inserted-text-run.js";
 
 describe("InsertedTextRun", () => {
     describe("#constructor", () => {

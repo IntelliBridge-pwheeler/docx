@@ -1,6 +1,6 @@
-import { IViewWrapper } from "./document-wrapper";
-import { FootNotes } from "./footnotes/footnotes";
-import { Relationships } from "./relationships";
+import { IViewWrapper } from "./document-wrapper.js";
+import { FootNotes } from "./footnotes/footnotes.js";
+import { Relationships } from "./relationships/index.js";
 
 export class FootnotesWrapper implements IViewWrapper {
     private readonly footnotess: FootNotes;

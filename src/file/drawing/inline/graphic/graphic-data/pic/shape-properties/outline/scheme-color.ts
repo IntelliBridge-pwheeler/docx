@@ -1,4 +1,4 @@
-import { BuilderElement, XmlComponent } from "@file/xml-components";
+import { BuilderElement, XmlComponent } from "@file/xml-components/index.js";
 
 type SchemeColorOptions = {
     readonly value: (typeof SchemeColor)[keyof typeof SchemeColor];

@@ -1,1 +1,1 @@
-export * from "./frame-properties";
+export * from "./frame-properties.js";

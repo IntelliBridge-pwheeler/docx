@@ -1,6 +1,6 @@
 // http://officeopenxml.com/WPtextSpecialContent-break.php
-import { Attributes, XmlComponent } from "@file/xml-components";
-import { Run } from "../run";
+import { Attributes, XmlComponent } from "@file/xml-components/index.js";
+import { Run } from "../run/index.js";
 
 const BreakType = {
     COLUMN: "column",

@@ -1,5 +1,5 @@
-import { XmlComponent } from "@file/xml-components";
-import { LatentStyleException } from "./exceptions";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { LatentStyleException } from "./exceptions.js";
 
 export class LatentStyles extends XmlComponent {
     public constructor(latentException?: LatentStyleException) {

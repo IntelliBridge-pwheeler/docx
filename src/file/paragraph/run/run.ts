@@ -1,14 +1,14 @@
 // http://officeopenxml.com/WPtext.php
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { FootnoteReferenceRun } from "@file/footnotes/footnote/run/reference-run";
-import { FieldInstruction } from "@file/table-of-contents/field-instruction";
+import { FootnoteReferenceRun } from "@file/footnotes/footnote/run/reference-run.js";
+import { FieldInstruction } from "@file/table-of-contents/field-instruction.js";
 
-import { Break } from "./break";
-import { Begin, End, Separate } from "./field";
-import { NumberOfPages, NumberOfPagesSection, Page, CurrentSection } from "./page-number";
-import { IRunPropertiesOptions, RunProperties } from "./properties";
-import { Text } from "./run-components/text";
+import { Break } from "./break.js";
+import { Begin, End, Separate } from "./field.js";
+import { NumberOfPages, NumberOfPagesSection, Page, CurrentSection } from "./page-number.js";
+import { IRunPropertiesOptions, RunProperties } from "./properties.js";
+import { Text } from "./run-components/text.js";
 import {
     AnnotationReference,
     CarriageReturn,
@@ -27,8 +27,8 @@ import {
     Tab,
     YearLong,
     YearShort,
-} from "./empty-children";
-import { PositionalTab } from "./positional-tab";
+} from "./empty-children.js";
+import { PositionalTab } from "./positional-tab.js";
 
 export interface IRunOptions extends IRunPropertiesOptions {
     // <xsd:choice>

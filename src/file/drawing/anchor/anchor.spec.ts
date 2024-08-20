@@ -1,12 +1,12 @@
 import { assert, describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { Utility } from "tests/utility";
+import { Utility } from "tests/utility.js";
 
-import { IDrawingOptions } from "../drawing";
-import { TextWrappingType } from "../text-wrap";
-import { Anchor } from "./anchor";
+import { IDrawingOptions } from "../drawing.js";
+import { TextWrappingType } from "../text-wrap/index.js";
+import { Anchor } from "./anchor.js";
 
 const createAnchor = (drawingOptions: IDrawingOptions): Anchor =>
     new Anchor({

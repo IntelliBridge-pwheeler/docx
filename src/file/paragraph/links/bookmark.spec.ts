@@ -1,9 +1,9 @@
 import { assert, beforeEach, describe, expect, it } from "vitest";
 
-import { Utility } from "tests/utility";
+import { Utility } from "tests/utility.js";
 
-import { TextRun } from "../run";
-import { Bookmark } from "./bookmark";
+import { TextRun } from "../run/index.js";
+import { Bookmark } from "./bookmark.js";
 
 describe("Bookmark", () => {
     let bookmark: Bookmark;

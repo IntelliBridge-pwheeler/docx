@@ -1,5 +1,5 @@
-import { SpaceType } from "@file/shared";
-import { XmlAttributeComponent } from "@file/xml-components";
+import { SpaceType } from "@file/shared/index.js";
+import { XmlAttributeComponent } from "@file/xml-components/index.js";
 
 export class TextAttributes extends XmlAttributeComponent<{
     readonly space: (typeof SpaceType)[keyof typeof SpaceType];

@@ -1,6 +1,6 @@
-import { NumberValueElement, OnOffElement, XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { NumberValueElement, OnOffElement, XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
-import { Compatibility, ICompatibilityOptions } from "./compatibility";
+import { Compatibility, ICompatibilityOptions } from "./compatibility.js";
 
 export class SettingsAttributes extends XmlAttributeComponent<{
     readonly wpc?: string;

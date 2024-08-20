@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { Formatter } from "@export/formatter";
-import { CheckBoxUtil } from ".";
+import { Formatter } from "@export/formatter.js";
+import { CheckBoxUtil } from "./index.js";
 
 describe("CheckBoxUtil", () => {
     describe("#constructor()", () => {

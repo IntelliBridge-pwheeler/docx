@@ -1,13 +1,13 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { EmphasisMarkType } from "@file/paragraph/run/emphasis-mark";
-import { UnderlineType } from "@file/paragraph/run/underline";
-import { HighlightColor } from "@file/paragraph/run/properties";
-import { ShadingType } from "@file/shading";
-import { EMPTY_OBJECT } from "@file/xml-components";
+import { Formatter } from "@export/formatter.js";
+import { EmphasisMarkType } from "@file/paragraph/run/emphasis-mark.js";
+import { UnderlineType } from "@file/paragraph/run/underline.js";
+import { HighlightColor } from "@file/paragraph/run/properties.js";
+import { ShadingType } from "@file/shading/index.js";
+import { EMPTY_OBJECT } from "@file/xml-components/index.js";
 
-import { StyleForCharacter } from "./character-style";
+import { StyleForCharacter } from "./character-style.js";
 
 describe("CharacterStyle", () => {
     describe("#constructor", () => {

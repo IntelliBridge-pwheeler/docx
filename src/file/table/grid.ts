@@ -9,8 +9,8 @@
 //     </xsd:sequence>
 // </xsd:complexType>
 
-import { NextAttributeComponent, XmlComponent } from "@file/xml-components";
-import { PositiveUniversalMeasure, twipsMeasureValue } from "@util/values";
+import { NextAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { PositiveUniversalMeasure, twipsMeasureValue } from "@util/values.js";
 
 export class TableGrid extends XmlComponent {
     public constructor(widths: readonly number[] | readonly PositiveUniversalMeasure[]) {

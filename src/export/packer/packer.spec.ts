@@ -1,9 +1,9 @@
 import { afterEach, assert, beforeEach, describe, expect, it, vi } from "vitest";
 
-import { File } from "@file/file";
-import { HeadingLevel, Paragraph } from "@file/paragraph";
+import { File } from "@file/file.js";
+import { HeadingLevel, Paragraph } from "@file/paragraph/index.js";
 
-import { Packer, PrettifyType } from "./packer";
+import { Packer, PrettifyType } from "./packer.js";
 
 describe("Packer", () => {
     let file: File;

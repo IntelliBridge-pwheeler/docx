@@ -1,4 +1,4 @@
-import { Attributes, XmlComponent } from "@file/xml-components";
+import { Attributes, XmlComponent } from "@file/xml-components/index.js";
 
 export class NumberProperties extends XmlComponent {
     public constructor(numberId: number | string, indentLevel: number) {

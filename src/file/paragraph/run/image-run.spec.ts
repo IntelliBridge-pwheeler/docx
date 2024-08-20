@@ -1,11 +1,11 @@
 import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { IViewWrapper } from "@file/document-wrapper";
-import { File } from "@file/file";
-import * as convenienceFunctions from "@util/convenience-functions";
+import { Formatter } from "@export/formatter.js";
+import { IViewWrapper } from "@file/document-wrapper.js";
+import { File } from "@file/file.js";
+import * as convenienceFunctions from "@util/convenience-functions.js";
 
-import { ImageRun } from "./image-run";
+import { ImageRun } from "./image-run.js";
 
 describe("ImageRun", () => {
     beforeAll(() => {

@@ -1,1 +1,1 @@
-export * from "./default-style";
+export * from "./default-style.js";

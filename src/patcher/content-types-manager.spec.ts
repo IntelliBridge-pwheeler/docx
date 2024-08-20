@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { appendContentType } from "./content-types-manager";
+import { appendContentType } from "./content-types-manager.js";
 
 describe("content-types-manager", () => {
     describe("appendContentType", () => {

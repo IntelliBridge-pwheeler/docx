@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { AlignmentType } from "..";
-import { Level, LevelFormat, LevelSuffix } from "./level";
+import { AlignmentType } from "../index.js";
+import { Level, LevelFormat, LevelSuffix } from "./level.js";
 
 describe("Level", () => {
     describe("#constructor", () => {

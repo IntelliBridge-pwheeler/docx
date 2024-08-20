@@ -1,10 +1,10 @@
 // http://www.datypic.com/sc/ooxml/e-m_func-1.html
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { MathComponent } from "../math-component";
-import { MathBase } from "../n-ary";
-import { MathFunctionName } from "./math-function-name";
-import { MathFunctionProperties } from "./math-function-properties";
+import { MathComponent } from "../math-component.js";
+import { MathBase } from "../n-ary/index.js";
+import { MathFunctionName } from "./math-function-name.js";
+import { MathFunctionProperties } from "./math-function-properties.js";
 
 export interface IMathFunctionOptions {
     readonly children: readonly MathComponent[];

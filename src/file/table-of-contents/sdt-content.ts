@@ -1,4 +1,4 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
 export class StructuredDocumentTagContent extends XmlComponent {
     public constructor() {

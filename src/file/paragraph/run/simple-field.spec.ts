@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { SimpleField, SimpleMailMergeField } from "./simple-field";
+import { SimpleField, SimpleMailMergeField } from "./simple-field.js";
 
 describe("SimpleField", () => {
     describe("#constructor()", () => {

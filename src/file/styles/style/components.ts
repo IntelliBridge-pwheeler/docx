@@ -1,6 +1,6 @@
 // http://officeopenxml.com/WPstyleGenProps.php
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
-import { decimalNumber } from "@util/values";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { decimalNumber } from "@util/values.js";
 
 class ComponentAttributes extends XmlAttributeComponent<{
     readonly val: string | number;

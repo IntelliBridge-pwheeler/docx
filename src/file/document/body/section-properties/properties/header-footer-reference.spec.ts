@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { HeaderFooterReference, HeaderFooterReferenceType, HeaderFooterType } from "./header-footer-reference";
+import { Formatter } from "@export/formatter.js";
+import { HeaderFooterReference, HeaderFooterReferenceType, HeaderFooterType } from "./header-footer-reference.js";
 
 describe("HeaderFooterReference", () => {
     it("#constructor (footer)", () => {

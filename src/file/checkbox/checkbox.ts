@@ -1,8 +1,8 @@
-import { SymbolRun } from "@file/paragraph/run/symbol-run";
-import { StructuredDocumentTagProperties } from "@file/table-of-contents/sdt-properties";
-import { StructuredDocumentTagContent } from "@file/table-of-contents/sdt-content";
-import { XmlComponent } from "@file/xml-components";
-import { CheckBoxUtil, ICheckboxSymbolOptions } from "./checkbox-util";
+import { SymbolRun } from "@file/paragraph/run/symbol-run.js";
+import { StructuredDocumentTagProperties } from "@file/table-of-contents/sdt-properties.js";
+import { StructuredDocumentTagContent } from "@file/table-of-contents/sdt-content.js";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { CheckBoxUtil, ICheckboxSymbolOptions } from "./checkbox-util.js";
 
 export class CheckBox extends XmlComponent {
     // default values per Microsoft

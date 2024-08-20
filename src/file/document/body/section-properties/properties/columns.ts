@@ -1,7 +1,7 @@
-import { NextAttributeComponent, XmlComponent } from "@file/xml-components";
-import { decimalNumber, PositiveUniversalMeasure, twipsMeasureValue } from "@util/values";
+import { NextAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { decimalNumber, PositiveUniversalMeasure, twipsMeasureValue } from "@util/values.js";
 
-import { Column } from "./column";
+import { Column } from "./column.js";
 
 // <xsd:complexType name="CT_Columns">
 //     <xsd:sequence minOccurs="0">

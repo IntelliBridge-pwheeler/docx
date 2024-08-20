@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { PageReferenceFieldInstruction } from "./pageref-field-instruction";
+import { Formatter } from "@export/formatter.js";
+import { PageReferenceFieldInstruction } from "./pageref-field-instruction.js";
 
 describe("PageReference field instruction", () => {
     describe("#constructor()", () => {

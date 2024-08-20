@@ -1,6 +1,6 @@
 // http://www.datypic.com/sc/ooxml/e-m_deg-1.html
-import { XmlComponent } from "@file/xml-components";
-import { MathComponent } from "../math-component";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { MathComponent } from "../math-component.js";
 
 export class MathDegree extends XmlComponent {
     public constructor(children?: readonly MathComponent[]) {

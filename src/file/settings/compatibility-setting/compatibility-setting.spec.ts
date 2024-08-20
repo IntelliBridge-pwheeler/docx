@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { CompatibilitySetting } from "./compatibility-setting";
+import { CompatibilitySetting } from "./compatibility-setting.js";
 
 describe("CompatibilitySetting", () => {
     describe("#constructor", () => {

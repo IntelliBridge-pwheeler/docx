@@ -1,6 +1,6 @@
-import { XmlComponent } from "@file/xml-components";
-import { TableCell } from "../table-cell";
-import { ITableRowPropertiesOptions, TableRowProperties } from "./table-row-properties";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { TableCell } from "../table-cell/index.js";
+import { ITableRowPropertiesOptions, TableRowProperties } from "./table-row-properties.js";
 
 export interface ITableRowOptions extends ITableRowPropertiesOptions {
     readonly children: readonly TableCell[];

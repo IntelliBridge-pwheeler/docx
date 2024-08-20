@@ -1,9 +1,9 @@
 // http://officeopenxml.com/WPfieldInstructions.php
-import { TextAttributes } from "@file/paragraph/run/text-attributes";
-import { SpaceType } from "@file/shared";
-import { XmlComponent } from "@file/xml-components";
+import { TextAttributes } from "@file/paragraph/run/text-attributes.js";
+import { SpaceType } from "@file/shared/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { ITableOfContentsOptions } from "./table-of-contents-properties";
+import { ITableOfContentsOptions } from "./table-of-contents-properties.js";
 
 export class FieldInstruction extends XmlComponent {
     private readonly properties: ITableOfContentsOptions;

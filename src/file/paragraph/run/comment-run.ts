@@ -1,5 +1,5 @@
-import { FileChild } from "@file/file-child";
-import { XmlAttributeComponent, XmlComponent } from "@file/xml-components";
+import { FileChild } from "@file/file-child.js";
+import { XmlAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
 export interface ICommentOptions {
     readonly id: number;

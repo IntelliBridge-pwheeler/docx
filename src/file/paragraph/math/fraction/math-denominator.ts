@@ -1,6 +1,6 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { MathComponent } from "../math-component";
+import { MathComponent } from "../math-component.js";
 
 export class MathDenominator extends XmlComponent {
     public constructor(children: readonly MathComponent[]) {

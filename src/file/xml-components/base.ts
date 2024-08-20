@@ -1,6 +1,6 @@
-import { IViewWrapper } from "../document-wrapper";
-import { File } from "../file";
-import { IXmlableObject } from "./xmlable-object";
+import { IViewWrapper } from "../document-wrapper.js";
+import { File } from "../file.js";
+import { IXmlableObject } from "./xmlable-object.js";
 
 export interface IContext {
     readonly file: File;

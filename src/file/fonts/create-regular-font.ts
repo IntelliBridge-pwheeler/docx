@@ -1,6 +1,6 @@
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { CharacterSet, createFont } from "./font";
+import { CharacterSet, createFont } from "./font.js";
 
 export const createRegularFont = ({
     name,

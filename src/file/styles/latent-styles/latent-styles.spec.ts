@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { LatentStyleException } from "./exceptions";
-import { LatentStyles } from "./latent-styles";
+import { LatentStyleException } from "./exceptions.js";
+import { LatentStyles } from "./latent-styles.js";
 
 describe("LatentStyles", () => {
     describe("#constructor()", () => {

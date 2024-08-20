@@ -1,4 +1,4 @@
-import { NextAttributeComponent, XmlComponent } from "@file/xml-components";
+import { NextAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
 
 // <xsd:simpleType name="ST_PTabAlignment">
 //     <xsd:restriction base="xsd:string">

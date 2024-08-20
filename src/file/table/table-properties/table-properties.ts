@@ -21,15 +21,15 @@
 //         <xsd:element name="tblDescription" type="CT_String" minOccurs="0" maxOccurs="1"/>
 //     </xsd:sequence>
 // </xsd:complexType>
-import { IgnoreIfEmptyXmlComponent, OnOffElement, StringValueElement } from "@file/xml-components";
+import { IgnoreIfEmptyXmlComponent, OnOffElement, StringValueElement } from "@file/xml-components/index.js";
 
-import { Alignment, AlignmentType } from "../../paragraph";
-import { IShadingAttributesProperties, Shading } from "../../shading";
-import { ITableWidthProperties, TableWidthElement } from "../table-width";
-import { ITableBordersOptions, TableBorders } from "./table-borders";
-import { ITableCellMarginOptions, TableCellMargin, TableCellMarginElementType } from "./table-cell-margin";
-import { ITableFloatOptions, TableFloatProperties } from "./table-float-properties";
-import { TableLayout, TableLayoutType } from "./table-layout";
+import { Alignment, AlignmentType } from "../../paragraph/index.js";
+import { IShadingAttributesProperties, Shading } from "../../shading/index.js";
+import { ITableWidthProperties, TableWidthElement } from "../table-width.js";
+import { ITableBordersOptions, TableBorders } from "./table-borders.js";
+import { ITableCellMarginOptions, TableCellMargin, TableCellMarginElementType } from "./table-cell-margin.js";
+import { ITableFloatOptions, TableFloatProperties } from "./table-float-properties.js";
+import { TableLayout, TableLayoutType } from "./table-layout.js";
 
 export interface ITablePropertiesOptions {
     readonly width?: ITableWidthProperties;

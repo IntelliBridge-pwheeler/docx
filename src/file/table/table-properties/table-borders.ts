@@ -1,6 +1,6 @@
 // http://officeopenxml.com/WPtableBorders.php
-import { BorderElement, BorderStyle, IBorderOptions } from "@file/border";
-import { XmlComponent } from "@file/xml-components";
+import { BorderElement, BorderStyle, IBorderOptions } from "@file/border/index.js";
+import { XmlComponent } from "@file/xml-components/index.js";
 
 export interface ITableBordersOptions {
     readonly top?: IBorderOptions;

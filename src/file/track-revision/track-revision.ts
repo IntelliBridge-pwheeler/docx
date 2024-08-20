@@ -1,4 +1,4 @@
-import { XmlAttributeComponent } from "@file/xml-components";
+import { XmlAttributeComponent } from "@file/xml-components/index.js";
 
 export interface IChangedAttributesProperties {
     readonly id: number;

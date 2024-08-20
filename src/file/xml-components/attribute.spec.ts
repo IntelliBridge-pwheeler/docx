@@ -1,6 +1,6 @@
 import { assert, describe, it } from "vitest";
 
-import { Attributes } from "./";
+import { Attributes } from "./index.js";
 
 describe("Attribute", () => {
     describe("#constructor()", () => {

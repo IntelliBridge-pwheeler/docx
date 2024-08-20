@@ -1,9 +1,9 @@
 // http://officeopenxml.com/WPhyperlink.php
-import { XmlComponent } from "@file/xml-components";
-import { uniqueId } from "@util/convenience-functions";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { uniqueId } from "@util/convenience-functions.js";
 
-import { ParagraphChild } from "../paragraph";
-import { HyperlinkAttributes, IHyperlinkAttributesProperties } from "./hyperlink-attributes";
+import { ParagraphChild } from "../paragraph.js";
+import { HyperlinkAttributes, IHyperlinkAttributesProperties } from "./hyperlink-attributes.js";
 
 export const HyperlinkType = {
     INTERNAL: "INTERNAL",

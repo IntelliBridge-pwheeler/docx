@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { LatentStyleException } from "./exceptions";
+import { LatentStyleException } from "./exceptions.js";
 
 describe("LatentStyleException", () => {
     describe("#constructor()", () => {

@@ -1,11 +1,11 @@
 // http://www.datypic.com/sc/ooxml/e-m_nary-1.html
-import { XmlComponent } from "@file/xml-components";
+import { XmlComponent } from "@file/xml-components/index.js";
 
-import { MathComponent } from "../math-component";
-import { MathBase } from "./math-base";
-import { MathNAryProperties } from "./math-n-ary-properties";
-import { MathSubScriptElement } from "./math-sub-script";
-import { MathSuperScriptElement } from "./math-super-script";
+import { MathComponent } from "../math-component.js";
+import { MathBase } from "./math-base.js";
+import { MathNAryProperties } from "./math-n-ary-properties.js";
+import { MathSubScriptElement } from "./math-sub-script.js";
+import { MathSuperScriptElement } from "./math-super-script.js";
 
 export interface IMathSumOptions {
     readonly children: readonly MathComponent[];

@@ -1,7 +1,7 @@
-import { XmlComponent } from "@file/xml-components";
-import { ContentTypeAttributes } from "./content-types-attributes";
-import { Default } from "./default/default";
-import { Override } from "./override/override";
+import { XmlComponent } from "@file/xml-components/index.js";
+import { ContentTypeAttributes } from "./content-types-attributes.js";
+import { Default } from "./default/default.js";
+import { Override } from "./override/override.js";
 
 export class ContentTypes extends XmlComponent {
     public constructor() {

@@ -1,4 +1,4 @@
-import { IMediaData, Media } from "@file/media";
+import { IMediaData, Media } from "@file/media/index.js";
 
 export class ImageReplacer {
     public replace(xmlData: string, mediaData: readonly IMediaData[], offset: number): string {

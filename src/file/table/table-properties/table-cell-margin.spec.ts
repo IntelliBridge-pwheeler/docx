@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
-import { WidthType } from "../table-width";
+import { Formatter } from "@export/formatter.js";
+import { WidthType } from "../table-width.js";
 
-import { TableCellMargin, TableCellMarginElementType } from "./table-cell-margin";
+import { TableCellMargin, TableCellMarginElementType } from "./table-cell-margin.js";
 
 describe("TableCellMargin", () => {
     describe("#constructor", () => {

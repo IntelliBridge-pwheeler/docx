@@ -1,3 +1,3 @@
-export * from "./checkbox-util";
-export * from "./checkbox-symbol";
-export * from "./checkbox";
+export * from "./checkbox-util.js";
+export * from "./checkbox-symbol.js";
+export * from "./checkbox.js";

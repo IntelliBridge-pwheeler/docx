@@ -1,5 +1,5 @@
-import { BaseXmlComponent, IContext } from "./base";
-import { IXmlableObject, IXmlAttribute } from "./xmlable-object";
+import { BaseXmlComponent, IContext } from "./base.js";
+import { IXmlableObject, IXmlAttribute } from "./xmlable-object.js";
 
 export type AttributeMap<T> = { readonly [P in keyof T]: string };
 

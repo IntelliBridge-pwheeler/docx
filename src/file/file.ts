@@ -1,23 +1,23 @@
-import { AppProperties } from "./app-properties/app-properties";
-import { ContentTypes } from "./content-types/content-types";
-import { CoreProperties, IPropertiesOptions } from "./core-properties";
-import { CustomProperties } from "./custom-properties";
-import { DocumentWrapper } from "./document-wrapper";
-import { HeaderFooterReferenceType, ISectionPropertiesOptions } from "./document/body/section-properties";
-import { FooterWrapper, IDocumentFooter } from "./footer-wrapper";
-import { FootnotesWrapper } from "./footnotes-wrapper";
-import { Footer, Header } from "./header";
-import { HeaderWrapper, IDocumentHeader } from "./header-wrapper";
-import { Media } from "./media";
-import { Numbering } from "./numbering";
-import { Comments } from "./paragraph/run/comment-run";
-import { Relationships } from "./relationships";
-import { Settings } from "./settings";
-import { Styles } from "./styles";
-import { ExternalStylesFactory } from "./styles/external-styles-factory";
-import { DefaultStylesFactory } from "./styles/factory";
-import { FileChild } from "./file-child";
-import { FontWrapper } from "./fonts/font-wrapper";
+import { AppProperties } from "./app-properties/app-properties.js";
+import { ContentTypes } from "./content-types/content-types.js";
+import { CoreProperties, IPropertiesOptions } from "./core-properties/index.js";
+import { CustomProperties } from "./custom-properties/index.js";
+import { DocumentWrapper } from "./document-wrapper.js";
+import { HeaderFooterReferenceType, ISectionPropertiesOptions } from "./document/body/section-properties/index.js";
+import { FooterWrapper, IDocumentFooter } from "./footer-wrapper.js";
+import { FootnotesWrapper } from "./footnotes-wrapper.js";
+import { Footer, Header } from "./header.js";
+import { HeaderWrapper, IDocumentHeader } from "./header-wrapper.js";
+import { Media } from "./media/index.js";
+import { Numbering } from "./numbering/index.js";
+import { Comments } from "./paragraph/run/comment-run.js";
+import { Relationships } from "./relationships/index.js";
+import { Settings } from "./settings/index.js";
+import { Styles } from "./styles/index.js";
+import { ExternalStylesFactory } from "./styles/external-styles-factory.js";
+import { DefaultStylesFactory } from "./styles/factory.js";
+import { FileChild } from "./file-child.js";
+import { FontWrapper } from "./fonts/font-wrapper.js";
 
 export interface ISectionOptions {
     readonly headers?: {

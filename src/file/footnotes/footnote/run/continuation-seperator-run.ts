@@ -1,5 +1,5 @@
-import { Run } from "@file/paragraph";
-import { ContinuationSeperator } from "./continuation-seperator";
+import { Run } from "@file/paragraph/index.js";
+import { ContinuationSeperator } from "./continuation-seperator.js";
 
 export class ContinuationSeperatorRun extends Run {
     public constructor() {

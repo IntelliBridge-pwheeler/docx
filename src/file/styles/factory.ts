@@ -1,7 +1,7 @@
-import { DocumentAttributes } from "../document/document-attributes";
-import { IStylesOptions } from "./styles";
+import { DocumentAttributes } from "../document/document-attributes.js";
+import { IStylesOptions } from "./styles.js";
 
-import { DocumentDefaults, IDocumentDefaultsOptions } from "./defaults";
+import { DocumentDefaults, IDocumentDefaultsOptions } from "./defaults/index.js";
 import {
     FootnoteReferenceStyle,
     FootnoteText,
@@ -18,7 +18,7 @@ import {
     ListParagraph,
     StrongStyle,
     TitleStyle,
-} from "./style";
+} from "./style/index.js";
 
 export interface IDefaultStylesOptions {
     readonly document?: IDocumentDefaultsOptions;

@@ -1,8 +1,8 @@
-import { IDefaultStylesOptions } from "@file/styles/factory";
-import { BaseXmlComponent, ImportedXmlComponent, XmlComponent } from "@file/xml-components";
-import { StyleForCharacter, StyleForParagraph } from "./style";
-import { ICharacterStyleOptions } from "./style/character-style";
-import { IParagraphStyleOptions } from "./style/paragraph-style";
+import { IDefaultStylesOptions } from "@file/styles/factory.js";
+import { BaseXmlComponent, ImportedXmlComponent, XmlComponent } from "@file/xml-components/index.js";
+import { StyleForCharacter, StyleForParagraph } from "./style/index.js";
+import { ICharacterStyleOptions } from "./style/character-style.js";
+import { IParagraphStyleOptions } from "./style/paragraph-style.js";
 
 export interface IStylesOptions {
     readonly default?: IDefaultStylesOptions;

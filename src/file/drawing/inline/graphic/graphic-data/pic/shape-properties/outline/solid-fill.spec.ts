@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { Formatter } from "@export/formatter";
+import { Formatter } from "@export/formatter.js";
 
-import { createSolidFill } from "./solid-fill";
-import { SchemeColor } from "./scheme-color";
+import { createSolidFill } from "./solid-fill.js";
+import { SchemeColor } from "./scheme-color.js";
 
 describe("createSolidFill", () => {
     it("should create of rgb", () => {

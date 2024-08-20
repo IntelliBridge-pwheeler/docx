@@ -1,6 +1,6 @@
 // http://officeopenxml.com/WPindentation.php
-import { NextAttributeComponent, XmlComponent } from "@file/xml-components";
-import { PositiveUniversalMeasure, signedTwipsMeasureValue, twipsMeasureValue, UniversalMeasure } from "@util/values";
+import { NextAttributeComponent, XmlComponent } from "@file/xml-components/index.js";
+import { PositiveUniversalMeasure, signedTwipsMeasureValue, twipsMeasureValue, UniversalMeasure } from "@util/values.js";
 
 export interface IIndentAttributesProperties {
     readonly start?: number | UniversalMeasure;
